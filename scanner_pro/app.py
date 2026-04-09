@@ -155,13 +155,17 @@ def main() -> None:
     rows = int(manifest.get("rows", len(snapshot)) or len(snapshot))
     coverage = manifest.get("coverage", 0)
     as_of = _safe_str(manifest.get("as_of"))
+    hist = manifest.get("history_status", {}) if isinstance(manifest, dict) else {}
+    history_present = int(hist.get("present", 0) or 0)
+    history_requested = int(hist.get("requested", history_present) or history_present)
 
-    m1, m2, m3, m4, m5 = st.columns(5)
+    m1, m2, m3, m4, m5, m6 = st.columns(6)
     m1.metric("Universe", f"{universe:,}")
-    m2.metric("Eligible", f"{eligible:,}")
-    m3.metric("Rows", f"{rows:,}")
-    m4.metric("Coverage", f"{coverage}%")
-    m5.metric("Snapshot as-of", as_of[:10] if as_of != "-" else "-")
+    m2.metric("History loaded", f"{history_present:,}")
+    m3.metric("Eligible", f"{eligible:,}")
+    m4.metric("Rows", f"{rows:,}")
+    m5.metric("Coverage", f"{coverage}%")
+    m6.metric("Snapshot as-of", as_of[:10] if as_of != "-" else "-")
 
     st.markdown(
         f"**Macro backdrop**: {_safe_str(macro_overlay.get('summary') or macro_overlay.get('market_bias'))}  \
@@ -173,8 +177,21 @@ def main() -> None:
         f"**Mode eksekusi**: {_safe_str(macro_overlay.get('execution_mode'))}"
     )
 
+    if universe > 0:
+        st.caption(
+            f"Universe terdaftar: {universe:,}. History yang sudah kebangun: {history_present:,}. "
+            f"Kalau angka history jauh lebih kecil dari universe, berarti ini belum full-universe build; hasil scanner masih parsial."
+        )
+
     if snapshot.empty:
-        st.warning("Snapshot belum ada atau kosong. Jalankan scripts/update_full_history.py lalu scripts/build_all_snapshots.py.")
+        if universe > 0:
+            if history_present == 0:
+                st.warning("Universe sudah ada, tapi history belum kebangun. Jalankan build full supaya universe ini benar-benar terisi.")
+            else:
+                st.info("Snapshot ada tapi belum ada ticker yang lolos filter saat ini. Ini bukan berarti universe kosong; hanya belum ada setup yang lolos di starter/build terakhir.")
+            st.caption(f"Status build sekarang: history loaded {history_present:,} dari universe {universe:,}. Requested terakhir: {history_requested:,}.")
+        else:
+            st.warning("Snapshot belum ada atau kosong. Jalankan scripts/update_full_history.py lalu scripts/build_all_snapshots.py.")
         return
 
     filtered = snapshot.copy()
