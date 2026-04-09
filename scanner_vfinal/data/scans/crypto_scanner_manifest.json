@@ -1,0 +1,45 @@
+{
+  "market": "crypto",
+  "as_of": "2026-04-09T04:24:20.991477+00:00",
+  "universe": 40,
+  "eligible": 2,
+  "rows": 2,
+  "coverage": 5.0,
+  "macro_overlay": {
+    "backend": "macro_snapshot",
+    "regime": "Low-Conviction Monthly Q3 inside Structural Q4",
+    "execution_mode": "Wait Reset / tactical only",
+    "market_bias": "Two-Way",
+    "crash_state": "normal",
+    "summary": "Crypto paling sehat kalau flow masuk nyata, leverage waras, dan supply likuid nggak mendadak membengkak.",
+    "next_route": "If current regime persists: stay with WTI, XAUUSD, IHSG",
+    "invalidator_route": "If structural flips: next backbone likely EEM, IHSG, WTI",
+    "focus": "Belum dapat next macro catalyst resmi.",
+    "next_macro_countdown": "-",
+    "next_macro_focus": "Belum dapat next macro catalyst resmi.",
+    "best_beneficiary": ""
+  },
+  "history_status": {
+    "present": 40,
+    "missing": 0,
+    "requested": 40
+  },
+  "refresh_report": {
+    "requested": 40,
+    "updated": 0,
+    "cached_only": 0,
+    "failed": []
+  },
+  "missing_due_to_history": [],
+  "required_columns": [
+    "Ticker",
+    "Bias",
+    "Entry Zone",
+    "Invalidation",
+    "Target",
+    "Holding Window",
+    "Macro Aligned?",
+    "EV+ / R:R"
+  ],
+  "note": "Starter snapshot bundled for first deploy. Run ONE_CLICK_BUILD_AND_PUSH.bat to refresh and push newer snapshots."
+}

@@ -75,7 +75,7 @@ with st.expander('Macro brain summary', expanded=True):
     })
 
 if man.get('history_loaded', 0) == 0:
-    st.warning('Universe sudah ada, tapi history/snapshot belum kebangun penuh. Jalankan builder lokal/VPS lalu buka lagi app ini.')
+    st.warning('Pack ini deploy-ready, tapi market ini belum punya starter snapshot yang terisi. Jalankan builder lokal/VPS untuk mengisi market ini.')
 
 if df.empty:
     st.info('Snapshot kosong untuk market ini.')
