@@ -196,7 +196,7 @@ def main() -> None:
     if snapshot.empty:
         if universe > 0:
             if history_present == 0:
-                st.warning("Universe sudah ada, tapi history belum kebangun. Jalankan build full supaya universe ini benar-benar terisi.")
+                st.warning("Universe sudah ada, tapi snapshot/history belum kebangun penuh. Kalau repo baru pertama kali dipush, tunggu workflow GitHub Actions `daily-refresh` selesai lalu refresh app. Kalau build lokal, jalankan `python build_everything_full.py`.")
             else:
                 st.info("Snapshot ada tapi belum ada ticker yang lolos filter saat ini. Ini bukan berarti universe kosong; hanya belum ada setup yang lolos di starter/build terakhir.")
             st.caption(f"Status build sekarang: history loaded {history_present:,} dari universe {universe:,}. Requested terakhir: {history_requested:,}.")

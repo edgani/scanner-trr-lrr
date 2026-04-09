@@ -1,9 +1,19 @@
-Bundled universes in this pack:
-- US: 12,083 symbols from Nasdaq current-trading-day symbol directory (broad max-coverage mode)
-- IHSG: 951 symbols
-- Forex: 16 pairs
-- Commodities: 3 instruments (XAUUSD / XAGUSD / USOIL display)
-- Crypto: bundled file may still be small until live refresh succeeds; workflow/local build should refresh from Binance exchangeInfo.
+FULL UNIVERSE NOTES
 
-This starter pack does NOT pretend its starter snapshots are current.
-It starts honest (0 eligible rows) until a live build refreshes universes/history/snapshots.
+US:
+- Bundled with a current Nasdaq symbol directory snapshot.
+- Daily refresh workflow rebuilds the US universe from Nasdaq.
+
+IHSG:
+- Bundled with full IDX CSV universe (~951 tickers).
+- Daily refresh workflow rebuilds from maintained IDX CSV source.
+
+CRYPTO:
+- Live refresh tries Binance spot USDT first.
+- If Binance is blocked/unavailable, refresh falls back to Coinbase USD spot products.
+- If Coinbase also fails, refresh falls back to Kraken USD tradable pairs.
+- If all live sources fail, the app keeps the last saved crypto universe instead of dropping back to a tiny starter list.
+
+Why the app can look empty on first deploy:
+- The app is snapshot-first and does not fetch heavy live data on page load.
+- The GitHub Action is responsible for building refreshed universes, histories, and snapshots.

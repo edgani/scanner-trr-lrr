@@ -20,6 +20,8 @@ BINANCE_ENDPOINTS = [
     'https://api3.binance.com/api/v3/exchangeInfo',
     'https://api4.binance.com/api/v3/exchangeInfo',
 ]
+COINBASE_PRODUCTS_URL = 'https://api.exchange.coinbase.com/products'
+KRAKEN_ASSETPAIRS_URL = 'https://api.kraken.com/0/public/AssetPairs'
 
 _EQUITY_EXCLUDE_RE = re.compile(
     r'Warrant| Unit| Rights| Right | Preferred| Preference| Notes| Note | ETN| Fund| ETF| Trust| Depositary| ADR| ADS| Beneficial Interest| Contingent Value Right| CVR| Interest',
@@ -123,8 +125,53 @@ def refresh_ihsg_universe(timeout: int = 25) -> list[str]:
     return _unique(symbols)
 
 
+
+
+def _norm_crypto_base(base: str) -> str:
+    base = str(base or '').strip().upper()
+    aliases = {
+        'XBT': 'BTC',
+        'BCC': 'BCH',
+    }
+    return aliases.get(base, base)
+
+
+def _coinbase_crypto_universe(s: requests.Session, timeout: int) -> list[str]:
+    resp = s.get(COINBASE_PRODUCTS_URL, timeout=timeout)
+    resp.raise_for_status()
+    data = resp.json()
+    symbols: list[str] = []
+    for row in data:
+        quote = str(row.get('quote_currency') or '').upper()
+        status = str(row.get('status') or '').lower()
+        trading_disabled = bool(row.get('trading_disabled', False))
+        if quote != 'USD' or trading_disabled or status not in {'online', ''}:
+            continue
+        base = _norm_crypto_base(row.get('base_currency'))
+        if base and re.fullmatch(r'[A-Z0-9]{2,20}', base):
+            symbols.append(f'{base}-USD')
+    return _unique(symbols)
+
+
+def _kraken_crypto_universe(s: requests.Session, timeout: int) -> list[str]:
+    resp = s.get(KRAKEN_ASSETPAIRS_URL, timeout=timeout)
+    resp.raise_for_status()
+    data = resp.json()
+    result = data.get('result', {}) if isinstance(data, dict) else {}
+    symbols: list[str] = []
+    for _, row in result.items():
+        wsname = str(row.get('wsname') or '')
+        if '/USD' not in wsname:
+            continue
+        base = _norm_crypto_base(wsname.split('/')[0])
+        if base and re.fullmatch(r'[A-Z0-9]{2,20}', base):
+            symbols.append(f'{base}-USD')
+    return _unique(symbols)
+
+
 def refresh_crypto_universe(timeout: int = 25) -> list[str]:
     s = _session(timeout)
+    # Prefer Binance USDT spot universe when reachable.
     for url in BINANCE_ENDPOINTS:
         try:
             resp = s.get(url, timeout=timeout)
@@ -138,7 +185,7 @@ def refresh_crypto_universe(timeout: int = 25) -> list[str]:
                     continue
                 if row.get('quoteAsset') != 'USDT':
                     continue
-                base = str(row.get('baseAsset') or '').strip().upper()
+                base = _norm_crypto_base(row.get('baseAsset'))
                 if base and re.fullmatch(r'[A-Z0-9]{2,20}', base):
                     symbols.append(f'{base}-USD')
             out = _unique(symbols)
@@ -146,7 +193,21 @@ def refresh_crypto_universe(timeout: int = 25) -> list[str]:
                 return out
         except Exception:
             continue
-    # Graceful fallback keeps app usable even when Binance blocks the host.
+    # Fallback 1: Coinbase spot USD products.
+    try:
+        out = _coinbase_crypto_universe(s, timeout)
+        if out:
+            return out
+    except Exception:
+        pass
+    # Fallback 2: Kraken USD tradable pairs.
+    try:
+        out = _kraken_crypto_universe(s, timeout)
+        if out:
+            return out
+    except Exception:
+        pass
+    # Final fallback keeps app usable even when every exchange blocks the host.
     return load_universe('crypto') or CRYPTO_SEED
 
 
