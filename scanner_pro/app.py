@@ -69,10 +69,8 @@ c3.metric('Rows shown', len(snapshot))
 c4.metric('Snapshot as-of', (manifest.get('as_of', '') or '')[:16].replace('T', ' '))
 
 st.markdown(
-    f"**Macro backdrop**: {macro.get('summary') or macro.get('market_bias') or '-'}  
-"
-    f"**Waktu ke event penting**: {_human_countdown(macro.get('next_macro_countdown', '-'))}  
-"
+    f"**Macro backdrop**: {macro.get('summary') or macro.get('market_bias') or '-'}\n\n"
+    f"**Waktu ke event penting**: {_human_countdown(macro.get('next_macro_countdown', '-'))}\n\n"
     f"**Fokus berikutnya**: {macro.get('next_macro_focus') or '-'}"
 )
 
