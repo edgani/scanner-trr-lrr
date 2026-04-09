@@ -1,2 +1,0 @@
-ENABLE_CACHE = True
-BATCH_VERSION = "v23-batch1"

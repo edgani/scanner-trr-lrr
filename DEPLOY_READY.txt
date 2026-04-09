@@ -1,9 +1,0 @@
-Deploy-ready starter pack.
-
-Main file path for Streamlit: scanner_vfinal/app.py
-
-This pack includes starter universes and starter scanner snapshots so the app opens with data immediately.
-For fresher/fuller data later, run locally:
-  pip install -r requirements-all.txt
-  python -m export_scanner_brain
-  python build_daily_local.py
