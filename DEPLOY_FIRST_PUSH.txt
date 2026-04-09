@@ -1,0 +1,12 @@
+Scanner deploy main file path:
+scanner_pro/app.py
+
+Macro deploy main file path:
+macroregime_pro/app.py
+
+This pack already includes starter scanner snapshots and macro snapshot so Streamlit Cloud does not open blank on first deploy.
+If you want fresher data later, run install_and_build.bat locally, then commit the updated files in:
+- scanner_pro/data/scans/*.csv
+- scanner_pro/data/scans/*.json
+- scanner_pro/data/macro/latest_snapshot.json
+- macroregime_pro/.cache/latest_snapshot.json

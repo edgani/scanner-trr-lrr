@@ -6,6 +6,7 @@ __pycache__/
 
 macroregime_pro/.cache/*
 !macroregime_pro/.cache/.gitkeep
+!macroregime_pro/.cache/latest_snapshot.json
 scanner_pro/.cache/*
 !scanner_pro/.cache/.gitkeep
 
@@ -20,10 +21,13 @@ scanner_pro/data/history/*
 !scanner_pro/data/history/.gitkeep
 scanner_pro/data/scans/*
 !scanner_pro/data/scans/.gitkeep
+!scanner_pro/data/scans/*.csv
+!scanner_pro/data/scans/*.json
 scanner_pro/data/exports/*
 !scanner_pro/data/exports/.gitkeep
 scanner_pro/data/macro/*
 !scanner_pro/data/macro/.gitkeep
+!scanner_pro/data/macro/latest_snapshot.json
 
 *.parquet
 *.feather
