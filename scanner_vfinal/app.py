@@ -28,6 +28,24 @@ def load_manifest(market: str) -> dict:
     return json.loads(p.read_text(encoding="utf-8"))
 
 
+def is_starter_or_stale(man: dict, df: pd.DataFrame) -> tuple[bool, str]:
+    if not man:
+        return True, 'Manifest belum ada.'
+    note = str(man.get('note', '')).lower()
+    hs = man.get('history_status', {}) if isinstance(man.get('history_status', {}), dict) else {}
+    present = int(man.get('history_loaded') if man.get('history_loaded') is not None else hs.get('present', 0) or 0)
+    requested = int(hs.get('requested', man.get('universe_count', man.get('universe', 0)) or 0) or 0)
+    if 'starter snapshot' in note or 'bundled for first deploy' in note:
+        return True, 'Snapshot ini starter/bundled, bukan harga current yang layak untuk screening.'
+    if requested > 0 and present == 0:
+        return True, 'History belum kebangun sama sekali.'
+    if requested > 0 and present / max(requested, 1) < 0.5:
+        return True, 'History yang terbangun masih terlalu sedikit dibanding universe penuh.'
+    if df.empty:
+        return True, 'Snapshot kosong untuk market ini.'
+    return False, ''
+
+
 def _normalize_snapshot(df: pd.DataFrame) -> pd.DataFrame:
     if df.empty:
         return df
@@ -108,6 +126,9 @@ market = st.sidebar.selectbox("Market", ["us", "ihsg", "forex", "commodities", "
 macro = load_macro()
 man = load_manifest(market)
 df = load_snapshot(market)
+starter_or_stale, stale_reason = is_starter_or_stale(man, df)
+if starter_or_stale:
+    df = pd.DataFrame()
 
 st.title("Scanner Final v33")
 
@@ -134,13 +155,16 @@ with st.expander("Macro brain summary", expanded=False):
         "best_beneficiary": macro.get("best_beneficiary"),
     })
 
-if history_loaded == 0:
+if starter_or_stale:
+    st.warning(stale_reason)
+    st.info('App sengaja menyembunyikan snapshot yang stale/ starter supaya harga salah tidak dipakai untuk screening.')
+elif history_loaded == 0:
     st.warning("Starter snapshot untuk market ini belum terisi. Jalankan builder lokal/VPS untuk mengisi market ini.")
 elif df.empty:
     st.warning("Snapshot ada, tapi semua kandidat gugur di filter saat ini. Ini bukan karena market hilang.")
 
 if df.empty:
-    st.info("Snapshot kosong untuk market ini.")
+    st.info("Snapshot kosong atau ditolak sanity-check untuk market ini.")
 else:
     tabs = st.tabs(["Short Term", "Mid Term", "Long Term", "Next Plays"])
     for horizon, tab in zip(["Short Term", "Mid Term", "Long Term", "Next Plays"], tabs):
