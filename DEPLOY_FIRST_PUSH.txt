@@ -1,12 +1,12 @@
-FIRST DEPLOY / FIRST PUSH
+Scanner deploy main file path:
+scanner_pro/app.py
 
-1) Push this repo to GitHub.
-2) Let GitHub Actions run workflow: daily-refresh.
-3) Wait until workflow finishes and commits refreshed universe + scanner snapshots.
-4) Redeploy Streamlit if needed.
+Macro deploy main file path:
+macroregime_pro/app.py
 
-Important:
-- This repo is snapshot-first. On first deploy, app may look empty until the workflow finishes.
-- After the workflow commits refreshed artifacts, the app becomes populated without manual upload of data files.
-- Scanner path: scanner_pro/app.py
-- Macro path: macroregime_pro/app.py
+This pack already includes starter scanner snapshots and macro snapshot so Streamlit Cloud does not open blank on first deploy.
+If you want fresher data later, run install_and_build.bat locally, then commit the updated files in:
+- scanner_pro/data/scans/*.csv
+- scanner_pro/data/scans/*.json
+- scanner_pro/data/macro/latest_snapshot.json
+- macroregime_pro/.cache/latest_snapshot.json

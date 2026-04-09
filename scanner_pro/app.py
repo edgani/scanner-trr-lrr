@@ -167,16 +167,6 @@ def main() -> None:
     m5.metric("Coverage", f"{coverage}%")
     m6.metric("Snapshot as-of", as_of[:10] if as_of != "-" else "-")
 
-    # Snapshot freshness warning
-    if as_of != "-":
-        try:
-            snap_ts = pd.to_datetime(as_of, utc=True)
-            age_days = (pd.Timestamp.utcnow(tz="UTC") - snap_ts).total_seconds() / 86400.0
-            if age_days > 2:
-                st.warning(f"Snapshot ini stale ({age_days:.1f} hari). Jalankan build/refresh terbaru dulu sebelum dipakai eksekusi.")
-        except Exception:
-            pass
-
     st.markdown(
         f"**Macro backdrop**: {_safe_str(macro_overlay.get('summary') or macro_overlay.get('market_bias'))}  \
 "
@@ -196,7 +186,7 @@ def main() -> None:
     if snapshot.empty:
         if universe > 0:
             if history_present == 0:
-                st.warning("Universe sudah ada, tapi snapshot/history belum kebangun penuh. Universe sudah ada, tapi snapshot/history belum kebangun penuh. Untuk full-universe no-cut yang stabil, jalankan builder lokal/VPS: `python build_daily_local.py` atau `run_daily_builder.bat`, lalu commit file snapshot/universe yang berubah ke repo.")
+                st.warning("Universe sudah ada, tapi history belum kebangun. Jalankan build full supaya universe ini benar-benar terisi.")
             else:
                 st.info("Snapshot ada tapi belum ada ticker yang lolos filter saat ini. Ini bukan berarti universe kosong; hanya belum ada setup yang lolos di starter/build terakhir.")
             st.caption(f"Status build sekarang: history loaded {history_present:,} dari universe {universe:,}. Requested terakhir: {history_requested:,}.")

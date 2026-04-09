@@ -1,26 +1,26 @@
 {
   "market": "commodities",
-  "as_of": "2026-04-09T09:01:19.707713+00:00",
+  "as_of": "2026-04-09T04:24:20.679832+00:00",
   "universe": 3,
   "eligible": 0,
   "coverage": 0.0,
   "macro_overlay": {
     "backend": "macro_snapshot",
-    "regime": "unknown",
-    "execution_mode": "balanced",
-    "market_bias": "mixed",
-    "crash_state": "mixed",
-    "summary": "",
-    "next_route": "",
-    "invalidator_route": "",
-    "focus": "",
+    "regime": "Low-Conviction Monthly Q3 inside Structural Q4",
+    "execution_mode": "Petrodollar / hard-asset tactical long",
+    "market_bias": "Two-Way",
+    "crash_state": "normal",
+    "summary": "Commodity ditarik dua arah: physical balance dan macro money pressure dari USD/rates.",
+    "next_route": "If current regime persists: stay with WTI, XAUUSD, IHSG",
+    "invalidator_route": "If structural flips: next backbone likely EEM, IHSG, WTI",
+    "focus": "Belum dapat next macro catalyst resmi.",
     "next_macro_countdown": "-",
-    "next_macro_focus": "-",
+    "next_macro_focus": "Belum dapat next macro catalyst resmi.",
     "best_beneficiary": ""
   },
   "history_status": {
-    "present": 0,
-    "missing": 3,
+    "present": 3,
+    "missing": 0,
     "requested": 3
   },
   "refresh_report": {
@@ -29,11 +29,7 @@
     "cached_only": 0,
     "failed": []
   },
-  "missing_due_to_history": [
-    "GC=F",
-    "SI=F",
-    "CL=F"
-  ],
+  "missing_due_to_history": [],
   "required_columns": [
     "Ticker",
     "Bias",
@@ -43,5 +39,7 @@
     "Holding Window",
     "Macro Aligned?",
     "EV+ / R:R"
-  ]
+  ],
+  "rows": 0,
+  "note": "Starter snapshot bundled for first deploy. Run ONE_CLICK_BUILD_AND_PUSH.bat to refresh and push newer snapshots."
 }

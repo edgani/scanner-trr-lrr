@@ -1,26 +1,27 @@
 {
   "market": "forex",
-  "as_of": "2026-04-09T09:01:19.699326+00:00",
+  "as_of": "2026-04-09T04:24:20.586430+00:00",
   "universe": 16,
-  "eligible": 0,
-  "coverage": 0.0,
+  "eligible": 1,
+  "rows": 1,
+  "coverage": 6.25,
   "macro_overlay": {
     "backend": "macro_snapshot",
-    "regime": "unknown",
-    "execution_mode": "balanced",
-    "market_bias": "mixed",
-    "crash_state": "mixed",
-    "summary": "",
-    "next_route": "",
-    "invalidator_route": "",
-    "focus": "",
+    "regime": "Low-Conviction Monthly Q3 inside Structural Q4",
+    "execution_mode": "Dollar / funding stress expressions",
+    "market_bias": "Two-Way",
+    "crash_state": "normal",
+    "summary": "FX banyak digerakkan rate differential, macro surprise differential, external balance, sama crowding/fragility.",
+    "next_route": "If current regime persists: stay with WTI, XAUUSD, IHSG",
+    "invalidator_route": "If structural flips: next backbone likely EEM, IHSG, WTI",
+    "focus": "Belum dapat next macro catalyst resmi.",
     "next_macro_countdown": "-",
-    "next_macro_focus": "-",
+    "next_macro_focus": "Belum dapat next macro catalyst resmi.",
     "best_beneficiary": ""
   },
   "history_status": {
-    "present": 0,
-    "missing": 16,
+    "present": 16,
+    "missing": 0,
     "requested": 16
   },
   "refresh_report": {
@@ -29,24 +30,7 @@
     "cached_only": 0,
     "failed": []
   },
-  "missing_due_to_history": [
-    "EURUSD=X",
-    "GBPUSD=X",
-    "AUDUSD=X",
-    "NZDUSD=X",
-    "JPY=X",
-    "CHF=X",
-    "CAD=X",
-    "EURJPY=X",
-    "GBPJPY=X",
-    "AUDJPY=X",
-    "NZDJPY=X",
-    "EURGBP=X",
-    "EURCHF=X",
-    "IDR=X",
-    "CNH=X",
-    "SGD=X"
-  ],
+  "missing_due_to_history": [],
   "required_columns": [
     "Ticker",
     "Bias",
@@ -56,5 +40,6 @@
     "Holding Window",
     "Macro Aligned?",
     "EV+ / R:R"
-  ]
+  ],
+  "note": "Starter snapshot bundled for first deploy. Run ONE_CLICK_BUILD_AND_PUSH.bat to refresh and push newer snapshots."
 }

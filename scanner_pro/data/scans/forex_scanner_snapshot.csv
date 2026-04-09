@@ -1,1 +1,2 @@
-Ticker,Bias,Entry Zone,Invalidation,Target,Holding Window,Macro Aligned?,EV+ / R:R
+Ticker,horizon_bucket,long_or_short,next_flag,Bias,Entry Zone,Invalidation,Target,Holding Window,Macro Aligned?,macro_explanation,entry_mid,rr_score,ev_score,route,why_now,why_not_yet,current_price,raw_states,detail_kind,EV+ / R:R
+AUDJPY=X,short_term,Long,0,Improving Long,63.7585 - 64.3242,62.9434,66.5808,2-10 hari,Mixed,"FX banyak digerakkan rate differential, macro surprise differential, external balance, sama crowding/fragility.",63.75853571428571,3.46,2.77,"If current regime persists: stay with WTI, XAUUSD, IHSG",Momentum pendek searah dan entry masih dekat range bawah.,,64.1626,S:improving M:weakening L:weakening,execute_now,2.77 / 3.46

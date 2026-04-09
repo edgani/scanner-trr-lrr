@@ -1,7 +1,6 @@
 from __future__ import annotations
 import subprocess
 from pathlib import Path
-import sys
 
 ROOT = Path(__file__).resolve().parent
 
@@ -14,7 +13,6 @@ def run(step: list[str], required: bool=True) -> None:
             raise
         print(f'WARN optional step failed: {e}')
 
-# Scanner first because that is what the deployed app needs.
 steps = [
     ['python', str(ROOT / 'scanner_pro' / 'scripts' / 'refresh_universe_snapshots.py'), '--market', 'us'],
     ['python', str(ROOT / 'scanner_pro' / 'scripts' / 'refresh_universe_snapshots.py'), '--market', 'ihsg'],
@@ -37,4 +35,4 @@ for s in steps:
     run(s, required=True)
 for s in optional:
     run(s, required=False)
-print('Local/VPS daily build complete. Commit the changed universe/snapshot files to GitHub.')
+print('Local build complete.')

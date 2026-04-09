@@ -1,6 +1,3 @@
-FIRST: use run_daily_builder.bat (or python build_daily_local.py) on your own machine/VPS.
-Then commit the changed snapshot/universe files to GitHub.
-
 START HERE
 
 1) Open terminal in this folder

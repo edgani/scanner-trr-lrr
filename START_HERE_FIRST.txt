@@ -1,0 +1,7 @@
+1. Extract this zip and replace your repo contents with it.
+2. Commit + push once from GitHub Desktop.
+3. Deploy Streamlit with main file path: scanner_pro/app.py
+4. The app will open immediately with starter snapshots.
+5. To refresh data later, just double-click ONE_CLICK_BUILD_AND_PUSH.bat on your PC.
+   That script rebuilds scanner snapshots locally, then git add/commit/push the changed universe/snapshot files.
+6. Streamlit will pick up the new snapshots after GitHub updates.
