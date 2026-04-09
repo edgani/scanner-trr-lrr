@@ -1,0 +1,312 @@
+{
+  "generated_at": "2026-04-09T09:42:51.736585",
+  "source_macro_root": "/mnt/data/build_patch_workspace/v33_final",
+  "source_snapshot_file": "/mnt/data/build_patch_workspace/v33_final/.cache/latest_snapshot.json",
+  "source": "MacroRegime v33",
+  "structural_quad": "Q4",
+  "monthly_quad": "Q3",
+  "current_quad": "Q4",
+  "next_quad": "Q3",
+  "current_route": "Petrodollar route active: oil and freight stress support exporters, pressure importers, and tighten USD / EM conditions.",
+  "next_route": "If structural flips: next backbone likely EEM, IHSG, WTI",
+  "alt_route": "If USD cools and breadth broadens, selective exporter leadership can widen into broader EM catch-up.",
+  "invalidator_route": "Breadth broadens against the branch | USD / rates reverse sharply | Cross-asset confirmation fails",
+  "execution_mode": {
+    "mode": "defensive",
+    "label": "Defensive / preserve capital",
+    "score": 0.3431164433032801,
+    "size_multiplier": 0.25,
+    "flags": {
+      "can_chase": false,
+      "buy_dip_only": false,
+      "breakout_only": false,
+      "reduce_on_strength": false,
+      "short_bounces_only": true,
+      "no_trade": false
+    },
+    "notes": [
+      "Structural Q4 / Monthly Q3 (divergent) + weather mixed + VIX bucket Unknown.",
+      "Market health: Fragile; shock state: normal; cross-asset confirm 0.49.",
+      "Execution bias now depends on whether signal confirms the monthly move or hands control back to the structural regime."
+    ]
+  },
+  "shock_state": "normal",
+  "market_health": "Fragile",
+  "risk_off_state": "watch",
+  "crash_state": "calm",
+  "safe_harbor": "TLT",
+  "best_beneficiary": "WTI",
+  "market_brains": {
+    "us": {
+      "market": "us",
+      "current_route": "Operating regime: Monthly Q3 inside Structural Q4",
+      "next_route": "If current regime persists: stay with WTI, XAUUSD, IHSG",
+      "invalidator_route": "Breadth broadens against the branch | USD / rates reverse sharply | Cross-asset confirmation fails",
+      "execution_mode": "Long on Reset",
+      "execution_bias": "Two-Way",
+      "shock_state": "normal",
+      "health_state": "Fragile",
+      "crash_state": "calm",
+      "supportive_buckets": [
+        "defensives",
+        "energy",
+        "quality_growth"
+      ],
+      "next_buckets": [
+        "energy",
+        "financials"
+      ],
+      "cut_buckets": [
+        "carry_beta",
+        "consumer_cyc",
+        "high_beta",
+        "meme_beta",
+        "micro_alt",
+        "semis_beta",
+        "small_beta"
+      ],
+      "short_buckets": [
+        "high_beta",
+        "meme_beta",
+        "small_beta"
+      ],
+      "safe_harbor_buckets": [
+        "defensives",
+        "quality_growth"
+      ],
+      "beneficiary_buckets": [
+        "energy"
+      ],
+      "no_chase_default": true,
+      "short_bounces_only": true,
+      "no_trade": false,
+      "route_confirmations": [
+        "Oil leadership holds",
+        "Exporter branch stays stronger than importers",
+        "USD pressure does not break down"
+      ],
+      "route_invalidators": [
+        "Breadth broadens against the branch",
+        "USD / rates reverse sharply",
+        "Cross-asset confirmation fails"
+      ]
+    },
+    "ihsg": {
+      "market": "ihsg",
+      "current_route": "Low-Conviction Monthly Q3 inside Structural Q4",
+      "next_route": "If monthly fades: rotate toward TLT, USD, XAUUSD",
+      "invalidator_route": "Breadth broadens against the branch | USD / rates reverse sharply | Cross-asset confirmation fails",
+      "execution_mode": "Defensive / selective only",
+      "execution_bias": "Two-Way Diagnostic",
+      "shock_state": "normal",
+      "health_state": "Fragile",
+      "crash_state": "calm",
+      "supportive_buckets": [
+        "banks",
+        "energy_exporter",
+        "metals_energy",
+        "telco_defensive"
+      ],
+      "next_buckets": [
+        "energy_exporter",
+        "metals_energy"
+      ],
+      "cut_buckets": [
+        "carry_beta",
+        "cyclical",
+        "high_beta",
+        "meme_beta",
+        "micro_alt",
+        "small_beta"
+      ],
+      "short_buckets": [
+        "cyclical",
+        "high_beta",
+        "meme_beta",
+        "small_beta"
+      ],
+      "safe_harbor_buckets": [
+        "banks",
+        "telco_defensive"
+      ],
+      "beneficiary_buckets": [
+        "energy_exporter"
+      ],
+      "no_chase_default": true,
+      "short_bounces_only": true,
+      "no_trade": false,
+      "route_confirmations": [
+        "Oil leadership holds",
+        "Exporter branch stays stronger than importers",
+        "USD pressure does not break down"
+      ],
+      "route_invalidators": [
+        "Breadth broadens against the branch",
+        "USD / rates reverse sharply",
+        "Cross-asset confirmation fails"
+      ]
+    },
+    "forex": {
+      "market": "forex",
+      "current_route": "Low-Conviction Monthly Q3 inside Structural Q4",
+      "next_route": "Watch carry vs funding winners / losers",
+      "invalidator_route": "Breadth broadens against the branch | USD / rates reverse sharply | Cross-asset confirmation fails",
+      "execution_mode": "Dollar / funding stress expressions",
+      "execution_bias": "Two-Way",
+      "shock_state": "normal",
+      "health_state": "Fragile",
+      "crash_state": "calm",
+      "supportive_buckets": [
+        "commodity_fx",
+        "jpy_safe_haven",
+        "safe_haven_fx",
+        "usd_major"
+      ],
+      "next_buckets": [
+        "commodity_fx"
+      ],
+      "cut_buckets": [
+        "carry_beta",
+        "em_fx",
+        "high_beta",
+        "meme_beta",
+        "micro_alt",
+        "small_beta"
+      ],
+      "short_buckets": [
+        "carry_beta",
+        "em_fx",
+        "high_beta",
+        "meme_beta",
+        "small_beta"
+      ],
+      "safe_harbor_buckets": [
+        "jpy_safe_haven",
+        "safe_haven_fx",
+        "usd_major"
+      ],
+      "beneficiary_buckets": [
+        "commodity_fx"
+      ],
+      "no_chase_default": true,
+      "short_bounces_only": true,
+      "no_trade": false,
+      "route_confirmations": [
+        "Oil leadership holds",
+        "Exporter branch stays stronger than importers",
+        "USD pressure does not break down"
+      ],
+      "route_invalidators": [
+        "Breadth broadens against the branch",
+        "USD / rates reverse sharply",
+        "Cross-asset confirmation fails"
+      ]
+    },
+    "commodities": {
+      "market": "commodities",
+      "current_route": "Low-Conviction Monthly Q3 inside Structural Q4",
+      "next_route": "Watch energy vs gold vs defensives split",
+      "invalidator_route": "Breadth broadens against the branch | USD / rates reverse sharply | Cross-asset confirmation fails",
+      "execution_mode": "Petrodollar / hard-asset tactical long",
+      "execution_bias": "Two-Way",
+      "shock_state": "normal",
+      "health_state": "Fragile",
+      "crash_state": "calm",
+      "supportive_buckets": [
+        "energy",
+        "industrial",
+        "precious"
+      ],
+      "next_buckets": [
+        "energy",
+        "industrial"
+      ],
+      "cut_buckets": [
+        "carry_beta",
+        "high_beta",
+        "meme_beta",
+        "micro_alt",
+        "small_beta"
+      ],
+      "short_buckets": [
+        "high_beta",
+        "meme_beta",
+        "small_beta"
+      ],
+      "safe_harbor_buckets": [
+        "precious"
+      ],
+      "beneficiary_buckets": [
+        "energy"
+      ],
+      "no_chase_default": true,
+      "short_bounces_only": true,
+      "no_trade": false,
+      "route_confirmations": [
+        "Oil leadership holds",
+        "Exporter branch stays stronger than importers",
+        "USD pressure does not break down"
+      ],
+      "route_invalidators": [
+        "Breadth broadens against the branch",
+        "USD / rates reverse sharply",
+        "Cross-asset confirmation fails"
+      ]
+    },
+    "crypto": {
+      "market": "crypto",
+      "current_route": "Low-Conviction Monthly Q3 inside Structural Q4",
+      "next_route": "Watch majors breadth vs tactical-only bounce",
+      "invalidator_route": "Breadth broadens against the branch | USD / rates reverse sharply | Cross-asset confirmation fails",
+      "execution_mode": "Wait Reset / tactical only",
+      "execution_bias": "Two-Way",
+      "shock_state": "normal",
+      "health_state": "Fragile",
+      "crash_state": "calm",
+      "supportive_buckets": [
+        "btc_quality",
+        "defi",
+        "l1l2",
+        "majors"
+      ],
+      "next_buckets": [
+        "infra",
+        "majors"
+      ],
+      "cut_buckets": [
+        "carry_beta",
+        "defi",
+        "high_beta",
+        "meme_beta",
+        "micro_alt",
+        "small_beta"
+      ],
+      "short_buckets": [
+        "high_beta",
+        "meme_beta",
+        "micro_alt",
+        "small_beta"
+      ],
+      "safe_harbor_buckets": [
+        "btc_quality",
+        "majors"
+      ],
+      "beneficiary_buckets": [
+        "majors"
+      ],
+      "no_chase_default": true,
+      "short_bounces_only": true,
+      "no_trade": false,
+      "route_confirmations": [
+        "Oil leadership holds",
+        "Exporter branch stays stronger than importers",
+        "USD pressure does not break down"
+      ],
+      "route_invalidators": [
+        "Breadth broadens against the branch",
+        "USD / rates reverse sharply",
+        "Cross-asset confirmation fails"
+      ]
+    }
+  }
+}

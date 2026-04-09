@@ -104,17 +104,27 @@ c3.metric('Eligible', int(man.get('eligible_count', 0) or 0))
 c4.metric('Rows', int(man.get('rows_count', len(df)) or 0))
 
 with st.expander('Macro brain summary', expanded=False):
+    market_brain = ((macro.get('market_brains', {}) or {}).get(market) or {})
     st.json({
         'current_quad': macro.get('current_quad'),
-        'current_route': macro.get('current_route'),
-        'next_route': ((macro.get('market_brains', {}) or {}).get(market) or {}).get('next_route') or macro.get('next_route'),
-        'invalidator_route': ((macro.get('market_brains', {}) or {}).get(market) or {}).get('invalidator_route') or macro.get('invalidator_route'),
-        'execution_mode': ((macro.get('market_brains', {}) or {}).get(market) or {}).get('execution_mode') or (macro.get('execution_mode', {}) or {}).get('label'),
+        'structural_quad': macro.get('structural_quad'),
+        'monthly_quad': macro.get('monthly_quad'),
+        'current_route': market_brain.get('current_route') or macro.get('current_route'),
+        'next_route': market_brain.get('next_route') or macro.get('next_route'),
+        'alt_route': macro.get('alt_route'),
+        'invalidator_route': market_brain.get('invalidator_route') or macro.get('invalidator_route'),
+        'execution_mode': market_brain.get('execution_mode') or (macro.get('execution_mode', {}) or {}).get('label'),
+        'execution_bias': market_brain.get('execution_bias'),
         'shock_state': macro.get('shock_state'),
         'market_health': macro.get('market_health'),
+        'risk_off_state': macro.get('risk_off_state'),
         'crash_state': macro.get('crash_state'),
         'safe_harbor': macro.get('safe_harbor'),
         'best_beneficiary': macro.get('best_beneficiary'),
+        'supportive_buckets': market_brain.get('supportive_buckets'),
+        'next_buckets': market_brain.get('next_buckets'),
+        'cut_buckets': market_brain.get('cut_buckets'),
+        'short_buckets': market_brain.get('short_buckets'),
     })
 
 if not market_ready:

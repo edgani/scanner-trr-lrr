@@ -10,8 +10,6 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 UNIVERSE_DIR = ROOT / 'data' / 'universes'
-MACRO_ROOT = Path(os.getenv('SCANNER_MACRO_ROOT', str(ROOT.parent / 'macroregime_v33')))
-MACRO_UNIVERSE_DIR = MACRO_ROOT / '.cache' / 'universe'
 
 BUNDLE_FILES = {
     'us': 'us_full_universe.json',
@@ -96,8 +94,43 @@ COMMODITY_BUCKETS = {
 }
 
 
+def _candidate_macro_roots() -> list[Path]:
+    env_root = os.getenv('SCANNER_MACRO_ROOT')
+    out: list[Path] = []
+    if env_root:
+        out.append(Path(env_root))
+    parent = ROOT.parent
+    out.extend([
+        parent / 'v33_final',
+        parent / 'macroregime_v33',
+        parent / 'MacroRegime_Pro_v33_final_mentok',
+    ])
+    for p in parent.iterdir():
+        if p.is_dir() and (p / '.cache' / 'latest_snapshot.json').exists():
+            out.append(p)
+    dedup: list[Path] = []
+    seen: set[str] = set()
+    for p in out:
+        rp = str(p.resolve()) if p.exists() else str(p)
+        if rp not in seen:
+            dedup.append(p)
+            seen.add(rp)
+    return dedup
+
+
+def _macro_root() -> Path:
+    for p in _candidate_macro_roots():
+        if (p / '.cache' / 'universe').exists():
+            return p
+    return ROOT.parent / 'v33_final'
+
+
+def _macro_universe_dir() -> Path:
+    return _macro_root() / '.cache' / 'universe'
+
+
 def _load_bundle(market: str) -> dict[str, Any]:
-    path = MACRO_UNIVERSE_DIR / BUNDLE_FILES[market]
+    path = _macro_universe_dir() / BUNDLE_FILES[market]
     if not path.exists():
         return {}
     return json.loads(path.read_text(encoding='utf-8'))
@@ -171,15 +204,7 @@ def bucket_for(market: str, symbol: str, name: str = '', extra: dict[str, Any] |
     return 'micro_alt'
 
 
-@lru_cache(maxsize=8)
-def load_universe(market: str) -> pd.DataFrame:
-    market = market.lower()
-    csv_path = UNIVERSE_DIR / f'{market}_universe.csv'
-    if csv_path.exists():
-        df = pd.read_csv(csv_path)
-        if 'bucket' not in df.columns:
-            df['bucket'] = [bucket_for(market, str(s), str(n)) for s, n in zip(df['symbol'], df.get('name', df['symbol']))]
-        return df
+def _bundle_to_frame(market: str) -> pd.DataFrame:
     payload = _load_bundle(market)
     records = payload.get('records', []) if isinstance(payload, dict) else []
     rows: list[dict[str, Any]] = []
@@ -204,8 +229,21 @@ def load_universe(market: str) -> pd.DataFrame:
     df = pd.DataFrame(rows)
     if df.empty:
         return pd.DataFrame(columns=['symbol', 'name', 'market', 'bucket', 'display_symbol'])
-    df = df.drop_duplicates(subset=['symbol']).sort_values('symbol').reset_index(drop=True)
-    return df
+    return df.drop_duplicates(subset=['symbol']).sort_values('symbol').reset_index(drop=True)
+
+
+@lru_cache(maxsize=16)
+def load_universe(market: str, force_bundle: bool = False) -> pd.DataFrame:
+    market = market.lower()
+    csv_path = UNIVERSE_DIR / f'{market}_universe.csv'
+    if csv_path.exists() and not force_bundle:
+        df = pd.read_csv(csv_path)
+        if 'bucket' not in df.columns:
+            df['bucket'] = [bucket_for(market, str(s), str(n)) for s, n in zip(df['symbol'], df.get('name', df['symbol']))]
+        if 'display_symbol' not in df.columns:
+            df['display_symbol'] = df['symbol'].map(lambda s: FX_DISPLAY.get(str(s)) or COMMODITY_DISPLAY.get(str(s)) or str(s))
+        return df
+    return _bundle_to_frame(market)
 
 
 def save_universe(market: str, df: pd.DataFrame) -> Path:

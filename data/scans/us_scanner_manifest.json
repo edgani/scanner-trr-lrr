@@ -1,0 +1,23 @@
+{
+  "market": "us",
+  "generated_at": "2026-04-09T15:49:53.870564+00:00",
+  "snapshot_status": "empty",
+  "status_reason": "No built history yet.",
+  "universe_count": 12468,
+  "history_loaded": 0,
+  "eligible_count": 0,
+  "rows_count": 0,
+  "sanity_rejected_count": 0,
+  "current_quad": "Q4",
+  "next_quad": "Q3",
+  "current_route": "Petrodollar route active: oil and freight stress support exporters, pressure importers, and tighten USD / EM conditions.",
+  "next_route": "If structural flips: next backbone likely EEM, IHSG, WTI",
+  "invalidator_route": "Breadth broadens against the branch | USD / rates reverse sharply | Cross-asset confirmation fails",
+  "execution_mode": "Defensive / preserve capital",
+  "market_health": "Fragile",
+  "shock_state": "normal",
+  "crash_state": "calm",
+  "safe_harbor": "TLT",
+  "best_beneficiary": "WTI",
+  "note": "Locally built snapshot only. Page load never fetches live prices."
+}

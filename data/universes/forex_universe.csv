@@ -1,0 +1,17 @@
+symbol,name,market,display_symbol,bucket
+AUDJPY=X,AUD/JPY,forex,AUD/JPY,carry_beta
+AUDUSD=X,AUD/USD,forex,AUD/USD,commodity_fx
+CAD=X,USD/CAD,forex,USD/CAD,commodity_fx
+CHF=X,USD/CHF,forex,USD/CHF,safe_haven_fx
+CNH=X,USD/CNH,forex,USD/CNH,em_fx
+EURCHF=X,EUR/CHF,forex,EUR/CHF,safe_haven_fx
+EURGBP=X,EUR/GBP,forex,EUR/GBP,usd_major
+EURJPY=X,EUR/JPY,forex,EUR/JPY,carry_beta
+EURUSD=X,EUR/USD,forex,EUR/USD,usd_major
+GBPJPY=X,GBP/JPY,forex,GBP/JPY,carry_beta
+GBPUSD=X,GBP/USD,forex,GBP/USD,usd_major
+IDR=X,USD/IDR,forex,USD/IDR,em_fx
+JPY=X,USD/JPY,forex,USD/JPY,jpy_safe_haven
+NZDJPY=X,NZD/JPY,forex,NZD/JPY,carry_beta
+NZDUSD=X,NZD/USD,forex,NZD/USD,commodity_fx
+SGD=X,USD/SGD,forex,USD/SGD,em_fx

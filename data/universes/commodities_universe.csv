@@ -1,0 +1,4 @@
+symbol,name,market,display_symbol,bucket
+CL=F,USOIL,commodities,USOIL,energy
+GC=F,XAUUSD,commodities,XAUUSD,precious
+SI=F,XAGUSD,commodities,XAGUSD,precious

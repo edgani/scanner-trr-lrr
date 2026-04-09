@@ -1,0 +1,952 @@
+symbol,name,market,display_symbol,bucket
+AADI.JK,Adaro Andalan Indonesia Tbk.,ihsg,AADI.JK,cyclical
+AALI.JK,Astra Agro Lestari Tbk.,ihsg,AALI.JK,cyclical
+ABBA.JK,Mahaka Media Tbk.,ihsg,ABBA.JK,cyclical
+ABDA.JK,Asuransi Bina Dana Arta Tbk.,ihsg,ABDA.JK,cyclical
+ABMM.JK,ABM Investama Tbk.,ihsg,ABMM.JK,cyclical
+ACES.JK,Aspirasi Hidup Indonesia Tbk.,ihsg,ACES.JK,cyclical
+ACRO.JK,Samcro Hyosung Adilestari Tbk.,ihsg,ACRO.JK,cyclical
+ACST.JK,Acset Indonusa Tbk.,ihsg,ACST.JK,cyclical
+ADCP.JK,Adhi Commuter Properti Tbk.,ihsg,ADCP.JK,cyclical
+ADES.JK,Akasha Wira International Tbk.,ihsg,ADES.JK,cyclical
+ADHI.JK,Adhi Karya (Persero) Tbk.,ihsg,ADHI.JK,cyclical
+ADMF.JK,Adira Dinamika Multi Finance T,ihsg,ADMF.JK,cyclical
+ADMG.JK,Polychem Indonesia Tbk,ihsg,ADMG.JK,cyclical
+ADMR.JK,Adaro Minerals Indonesia Tbk.,ihsg,ADMR.JK,cyclical
+ADRO.JK,Alamtri Resources Indonesia Tb,ihsg,ADRO.JK,energy_exporter
+AEGS.JK,Anugerah Spareparts Sejahtera,ihsg,AEGS.JK,cyclical
+AGAR.JK,Asia Sejahtera Mina Tbk.,ihsg,AGAR.JK,cyclical
+AGII.JK,Samator Indo Gas Tbk.,ihsg,AGII.JK,energy_exporter
+AGRO.JK,Bank Raya Indonesia Tbk.,ihsg,AGRO.JK,banks
+AGRS.JK,Bank IBK Indonesia Tbk.,ihsg,AGRS.JK,banks
+AHAP.JK,Asuransi Harta Aman Pratama Tb,ihsg,AHAP.JK,cyclical
+AIMS.JK,Artha Mahiya Investama Tbk.,ihsg,AIMS.JK,cyclical
+AISA.JK,FKS Food Sejahtera Tbk.,ihsg,AISA.JK,cyclical
+AKKU.JK,Anugerah Kagum Karya Utama Tbk,ihsg,AKKU.JK,cyclical
+AKPI.JK,Argha Karya Prima Industry Tbk,ihsg,AKPI.JK,cyclical
+AKRA.JK,AKR Corporindo Tbk.,ihsg,AKRA.JK,cyclical
+AKSI.JK,Mineral Sumberdaya Mandiri Tbk,ihsg,AKSI.JK,banks
+ALDO.JK,Alkindo Naratama Tbk.,ihsg,ALDO.JK,cyclical
+ALII.JK,Ancara Logistics Indonesia Tbk,ihsg,ALII.JK,cyclical
+ALKA.JK,Alakasa Industrindo Tbk,ihsg,ALKA.JK,cyclical
+ALMI.JK,Alumindo Light Metal Industry,ihsg,ALMI.JK,metals_energy
+ALTO.JK,Tri Banyan Tirta Tbk.,ihsg,ALTO.JK,cyclical
+AMAG.JK,Asuransi Multi Artha Guna Tbk.,ihsg,AMAG.JK,cyclical
+AMAN.JK,Makmur Berkah Amanda Tbk.,ihsg,AMAN.JK,cyclical
+AMAR.JK,Bank Amar Indonesia Tbk.,ihsg,AMAR.JK,banks
+AMFG.JK,Asahimas Flat Glass Tbk.,ihsg,AMFG.JK,cyclical
+AMIN.JK,Ateliers Mecaniques D Indonesi,ihsg,AMIN.JK,cyclical
+AMMN.JK,Amman Mineral Internasional Tb,ihsg,AMMN.JK,cyclical
+AMMS.JK,Agung Menjangan Mas Tbk.,ihsg,AMMS.JK,cyclical
+AMOR.JK,Ashmore Asset Management Indon,ihsg,AMOR.JK,cyclical
+AMRT.JK,Sumber Alfaria Trijaya Tbk.,ihsg,AMRT.JK,cyclical
+ANDI.JK,Andira Agro Tbk.,ihsg,ANDI.JK,cyclical
+ANJT.JK,Austindo Nusantara Jaya Tbk.,ihsg,ANJT.JK,cyclical
+ANTM.JK,Aneka Tambang Tbk.,ihsg,ANTM.JK,metals_energy
+APEX.JK,Apexindo Pratama Duta Tbk.,ihsg,APEX.JK,cyclical
+APIC.JK,Pacific Strategic Financial Tb,ihsg,APIC.JK,cyclical
+APII.JK,Arita Prima Indonesia Tbk.,ihsg,APII.JK,cyclical
+APLI.JK,Asiaplast Industries Tbk.,ihsg,APLI.JK,cyclical
+APLN.JK,Agung Podomoro Land Tbk.,ihsg,APLN.JK,cyclical
+ARCI.JK,Archi Indonesia Tbk.,ihsg,ARCI.JK,cyclical
+AREA.JK,Dunia Virtual Online Tbk.,ihsg,AREA.JK,cyclical
+ARGO.JK,Argo Pantes Tbk,ihsg,ARGO.JK,cyclical
+ARII.JK,Atlas Resources Tbk.,ihsg,ARII.JK,cyclical
+ARKA.JK,Arkha Jayanti Persada Tbk.,ihsg,ARKA.JK,cyclical
+ARKO.JK,Arkora Hydro Tbk.,ihsg,ARKO.JK,cyclical
+ARMY.JK,Armidian Karyatama Tbk.,ihsg,ARMY.JK,cyclical
+ARNA.JK,Arwana Citramulia Tbk.,ihsg,ARNA.JK,cyclical
+ARTA.JK,Arthavest Tbk,ihsg,ARTA.JK,cyclical
+ARTI.JK,Ratu Prabu Energi Tbk,ihsg,ARTI.JK,cyclical
+ARTO.JK,Bank Jago Tbk.,ihsg,ARTO.JK,banks
+ASBI.JK,Asuransi Bintang Tbk.,ihsg,ASBI.JK,cyclical
+ASDM.JK,Asuransi Dayin Mitra Tbk.,ihsg,ASDM.JK,cyclical
+ASGR.JK,Astra Graphia Tbk.,ihsg,ASGR.JK,cyclical
+ASHA.JK,Cilacap Samudera Fishing Indus,ihsg,ASHA.JK,cyclical
+ASII.JK,Astra International Tbk.,ihsg,ASII.JK,cyclical
+ASJT.JK,Asuransi Jasa Tania Tbk.,ihsg,ASJT.JK,cyclical
+ASLC.JK,Autopedia Sukses Lestari Tbk.,ihsg,ASLC.JK,cyclical
+ASLI.JK,Asri Karya Lestari Tbk.,ihsg,ASLI.JK,cyclical
+ASMI.JK,Asuransi Maximus Graha Persada,ihsg,ASMI.JK,cyclical
+ASPI.JK,Andalan Sakti Primaindo Tbk.,ihsg,ASPI.JK,cyclical
+ASRI.JK,Alam Sutera Realty Tbk.,ihsg,ASRI.JK,cyclical
+ASRM.JK,Asuransi Ramayana Tbk.,ihsg,ASRM.JK,cyclical
+ASSA.JK,Adi Sarana Armada Tbk.,ihsg,ASSA.JK,cyclical
+ATAP.JK,Trimitra Prawara Goldland Tbk.,ihsg,ATAP.JK,metals_energy
+ATIC.JK,Anabatic Technologies Tbk.,ihsg,ATIC.JK,cyclical
+ATLA.JK,Atlantis Subsea Indonesia Tbk.,ihsg,ATLA.JK,cyclical
+AUTO.JK,Astra Otoparts Tbk.,ihsg,AUTO.JK,cyclical
+AVIA.JK,Avia Avian Tbk.,ihsg,AVIA.JK,cyclical
+AWAN.JK,Era Digital Media Tbk.,ihsg,AWAN.JK,cyclical
+AXIO.JK,Tera Data Indonusa Tbk.,ihsg,AXIO.JK,cyclical
+AYAM.JK,Janu Putra Sejahtera Tbk.,ihsg,AYAM.JK,cyclical
+AYLS.JK,Agro Yasa Lestari Tbk.,ihsg,AYLS.JK,cyclical
+BABP.JK,Bank MNC Internasional Tbk.,ihsg,BABP.JK,banks
+BABY.JK,Multitrend Indo Tbk.,ihsg,BABY.JK,cyclical
+BACA.JK,Bank Capital Indonesia Tbk.,ihsg,BACA.JK,banks
+BAIK.JK,Bersama Mencapai Puncak Tbk.,ihsg,BAIK.JK,cyclical
+BAJA.JK,Saranacentral Bajatama Tbk.,ihsg,BAJA.JK,cyclical
+BALI.JK,Bali Towerindo Sentra Tbk.,ihsg,BALI.JK,telco_defensive
+BANK.JK,Bank Aladin Syariah Tbk.,ihsg,BANK.JK,banks
+BAPA.JK,Bekasi Asri Pemula Tbk.,ihsg,BAPA.JK,cyclical
+BAPI.JK,Bhakti Agung Propertindo Tbk.,ihsg,BAPI.JK,cyclical
+BATA.JK,Sepatu Bata Tbk.,ihsg,BATA.JK,cyclical
+BATR.JK,Benteng Api Technic Tbk.,ihsg,BATR.JK,cyclical
+BAUT.JK,Mitra Angkasa Sejahtera Tbk.,ihsg,BAUT.JK,cyclical
+BAYU.JK,Bayu Buana Tbk,ihsg,BAYU.JK,cyclical
+BBCA.JK,Bank Central Asia Tbk.,ihsg,BBCA.JK,banks
+BBHI.JK,Allo Bank Indonesia Tbk.,ihsg,BBHI.JK,banks
+BBKP.JK,Bank KB Bukopin Tbk.,ihsg,BBKP.JK,banks
+BBLD.JK,Buana Finance Tbk.,ihsg,BBLD.JK,cyclical
+BBMD.JK,Bank Mestika Dharma Tbk.,ihsg,BBMD.JK,banks
+BBNI.JK,Bank Negara Indonesia (Persero,ihsg,BBNI.JK,banks
+BBRI.JK,Bank Rakyat Indonesia (Persero,ihsg,BBRI.JK,banks
+BBRM.JK,Pelayaran Nasional Bina Buana,ihsg,BBRM.JK,cyclical
+BBSI.JK,Krom Bank Indonesia Tbk.,ihsg,BBSI.JK,banks
+BBSS.JK,Bumi Benowo Sukses Sejahtera T,ihsg,BBSS.JK,cyclical
+BBTN.JK,Bank Tabungan Negara (Persero),ihsg,BBTN.JK,banks
+BBYB.JK,Bank Neo Commerce Tbk.,ihsg,BBYB.JK,banks
+BCAP.JK,MNC Kapital Indonesia Tbk.,ihsg,BCAP.JK,cyclical
+BCIC.JK,Bank JTrust Indonesia Tbk.,ihsg,BCIC.JK,banks
+BCIP.JK,Bumi Citra Permai Tbk.,ihsg,BCIP.JK,cyclical
+BDKR.JK,Berdikari Pondasi Perkasa Tbk.,ihsg,BDKR.JK,cyclical
+BDMN.JK,Bank Danamon Indonesia Tbk.,ihsg,BDMN.JK,banks
+BEBS.JK,Berkah Beton Sadaya Tbk.,ihsg,BEBS.JK,cyclical
+BEEF.JK,Estika Tata Tiara Tbk.,ihsg,BEEF.JK,cyclical
+BEER.JK,Jobubu Jarum Minahasa Tbk.,ihsg,BEER.JK,cyclical
+BEKS.JK,Bank Pembangunan Daerah Banten,ihsg,BEKS.JK,banks
+BELI.JK,Global Digital Niaga Tbk.,ihsg,BELI.JK,cyclical
+BELL.JK,Trisula Textile Industries Tbk,ihsg,BELL.JK,cyclical
+BESS.JK,Batulicin Nusantara Maritim Tb,ihsg,BESS.JK,cyclical
+BEST.JK,Bekasi Fajar Industrial Estate,ihsg,BEST.JK,cyclical
+BFIN.JK,BFI Finance  Indonesia Tbk.,ihsg,BFIN.JK,cyclical
+BGTG.JK,Bank Ganesha Tbk.,ihsg,BGTG.JK,banks
+BHAT.JK,Bhakti Multi Artha Tbk.,ihsg,BHAT.JK,cyclical
+BHIT.JK,MNC Asia Holding Tbk.,ihsg,BHIT.JK,cyclical
+BIKA.JK,Binakarya Jaya Abadi Tbk.,ihsg,BIKA.JK,cyclical
+BIKE.JK,Sepeda Bersama Indonesia Tbk.,ihsg,BIKE.JK,cyclical
+BIMA.JK,Primarindo Asia Infrastructure,ihsg,BIMA.JK,telco_defensive
+BINA.JK,Bank Ina Perdana Tbk.,ihsg,BINA.JK,banks
+BINO.JK,Perma Plasindo Tbk.,ihsg,BINO.JK,cyclical
+BIPI.JK,Astrindo Nusantara Infrastrukt,ihsg,BIPI.JK,telco_defensive
+BIPP.JK,Bhuwanatala Indah Permai Tbk.,ihsg,BIPP.JK,cyclical
+BIRD.JK,Blue Bird Tbk.,ihsg,BIRD.JK,cyclical
+BISI.JK,BISI International Tbk.,ihsg,BISI.JK,cyclical
+BJBR.JK,Bank Pembangunan Daerah Jawa B,ihsg,BJBR.JK,banks
+BJTM.JK,Bank Pembangunan Daerah Jawa T,ihsg,BJTM.JK,banks
+BKDP.JK,Bukit Darmo Property Tbk,ihsg,BKDP.JK,cyclical
+BKSL.JK,Sentul City Tbk.,ihsg,BKSL.JK,cyclical
+BKSW.JK,Bank QNB Indonesia Tbk.,ihsg,BKSW.JK,banks
+BLES.JK,Superior Prima Sukses Tbk.,ihsg,BLES.JK,cyclical
+BLTA.JK,Berlian Laju Tanker Tbk,ihsg,BLTA.JK,cyclical
+BLTZ.JK,Graha Layar Prima Tbk.,ihsg,BLTZ.JK,cyclical
+BLUE.JK,Berkah Prima Perkasa Tbk.,ihsg,BLUE.JK,cyclical
+BMAS.JK,Bank Maspion Indonesia Tbk.,ihsg,BMAS.JK,banks
+BMBL.JK,Lavender Bina Cendikia Tbk.,ihsg,BMBL.JK,cyclical
+BMHS.JK,Bundamedik Tbk.,ihsg,BMHS.JK,cyclical
+BMRI.JK,Bank Mandiri (Persero) Tbk.,ihsg,BMRI.JK,banks
+BMSR.JK,Bintang Mitra Semestaraya Tbk,ihsg,BMSR.JK,cyclical
+BMTR.JK,Global Mediacom Tbk.,ihsg,BMTR.JK,cyclical
+BNBA.JK,Bank Bumi Arta Tbk.,ihsg,BNBA.JK,banks
+BNBR.JK,Bakrie & Brothers Tbk,ihsg,BNBR.JK,cyclical
+BNGA.JK,Bank CIMB Niaga Tbk.,ihsg,BNGA.JK,banks
+BNII.JK,Bank Maybank Indonesia Tbk.,ihsg,BNII.JK,banks
+BNLI.JK,Bank Permata Tbk.,ihsg,BNLI.JK,banks
+BOAT.JK,Newport Marine Services Tbk.,ihsg,BOAT.JK,cyclical
+BOBA.JK,Formosa Ingredient Factory Tbk,ihsg,BOBA.JK,cyclical
+BOGA.JK,Bintang Oto Global Tbk.,ihsg,BOGA.JK,cyclical
+BOLA.JK,Bali Bintang Sejahtera Tbk.,ihsg,BOLA.JK,cyclical
+BOLT.JK,Garuda Metalindo Tbk.,ihsg,BOLT.JK,metals_energy
+BOSS.JK,Borneo Olah Sarana Sukses Tbk.,ihsg,BOSS.JK,cyclical
+BPFI.JK,Woori Finance Indonesia Tbk.,ihsg,BPFI.JK,cyclical
+BPII.JK,Batavia Prosperindo Internasio,ihsg,BPII.JK,cyclical
+BPTR.JK,Batavia Prosperindo Trans Tbk.,ihsg,BPTR.JK,cyclical
+BRAM.JK,Indo Kordsa Tbk.,ihsg,BRAM.JK,cyclical
+BREN.JK,Barito Renewables Energy Tbk.,ihsg,BREN.JK,energy_exporter
+BRIS.JK,Bank Syariah Indonesia Tbk.,ihsg,BRIS.JK,banks
+BRMS.JK,Bumi Resources Minerals Tbk.,ihsg,BRMS.JK,cyclical
+BRNA.JK,Berlina Tbk.,ihsg,BRNA.JK,cyclical
+BRPT.JK,Barito Pacific Tbk.,ihsg,BRPT.JK,cyclical
+BRRC.JK,Raja Roti Cemerlang Tbk.,ihsg,BRRC.JK,cyclical
+BSBK.JK,Wulandari Bangun Laksana Tbk.,ihsg,BSBK.JK,cyclical
+BSDE.JK,Bumi Serpong Damai Tbk.,ihsg,BSDE.JK,cyclical
+BSIM.JK,Bank Sinarmas Tbk.,ihsg,BSIM.JK,banks
+BSML.JK,Bintang Samudera Mandiri Lines,ihsg,BSML.JK,banks
+BSSR.JK,Baramulti Suksessarana Tbk.,ihsg,BSSR.JK,cyclical
+BSWD.JK,Bank Of India Indonesia Tbk.,ihsg,BSWD.JK,banks
+BTEK.JK,Bumi Teknokultura Unggul Tbk,ihsg,BTEK.JK,cyclical
+BTEL.JK,Bakrie Telecom Tbk.,ihsg,BTEL.JK,cyclical
+BTON.JK,Betonjaya Manunggal Tbk.,ihsg,BTON.JK,cyclical
+BTPN.JK,Bank SMBC Indonesia Tbk.,ihsg,BTPN.JK,banks
+BTPS.JK,Bank BTPN Syariah Tbk.,ihsg,BTPS.JK,banks
+BUAH.JK,Segar Kumala Indonesia Tbk.,ihsg,BUAH.JK,cyclical
+BUDI.JK,Budi Starch & Sweetener Tbk.,ihsg,BUDI.JK,cyclical
+BUKA.JK,Bukalapak.com Tbk.,ihsg,BUKA.JK,cyclical
+BUKK.JK,Bukaka Teknik Utama Tbk.,ihsg,BUKK.JK,cyclical
+BULL.JK,Buana Lintas Lautan Tbk.,ihsg,BULL.JK,cyclical
+BUMI.JK,Bumi Resources Tbk.,ihsg,BUMI.JK,cyclical
+BUVA.JK,Bukit Uluwatu Villa Tbk.,ihsg,BUVA.JK,cyclical
+BVIC.JK,Bank Victoria International Tb,ihsg,BVIC.JK,banks
+BWPT.JK,Eagle High Plantations Tbk.,ihsg,BWPT.JK,cyclical
+BYAN.JK,Bayan Resources Tbk.,ihsg,BYAN.JK,cyclical
+CAKK.JK,Cahayaputra Asa Keramik Tbk.,ihsg,CAKK.JK,cyclical
+CAMP.JK,Campina Ice Cream Industry Tbk,ihsg,CAMP.JK,cyclical
+CANI.JK,Capitol Nusantara Indonesia Tb,ihsg,CANI.JK,cyclical
+CARE.JK,Metro Healthcare Indonesia Tbk,ihsg,CARE.JK,cyclical
+CARS.JK,Industri dan Perdagangan Bintr,ihsg,CARS.JK,cyclical
+CASA.JK,Capital Financial Indonesia Tb,ihsg,CASA.JK,cyclical
+CASH.JK,Cashlez Worldwide Indonesia Tb,ihsg,CASH.JK,cyclical
+CASS.JK,Cardig Aero Services Tbk.,ihsg,CASS.JK,cyclical
+CBDK.JK,Bangun Kosambi Sukses Tbk.,ihsg,CBDK.JK,cyclical
+CBMF.JK,Cahaya Bintang Medan Tbk.,ihsg,CBMF.JK,cyclical
+CBPE.JK,Citra Buana Prasida Tbk.,ihsg,CBPE.JK,cyclical
+CBRE.JK,Cakra Buana Resources Energi T,ihsg,CBRE.JK,cyclical
+CBUT.JK,Citra Borneo Utama Tbk.,ihsg,CBUT.JK,cyclical
+CCSI.JK,Communication Cable Systems In,ihsg,CCSI.JK,cyclical
+CEKA.JK,Wilmar Cahaya Indonesia Tbk.,ihsg,CEKA.JK,cyclical
+CENT.JK,Centratama Telekomunikasi Indo,ihsg,CENT.JK,telco_defensive
+CFIN.JK,Clipan Finance Indonesia Tbk.,ihsg,CFIN.JK,cyclical
+CGAS.JK,Citra Nusantara Gemilang Tbk.,ihsg,CGAS.JK,cyclical
+CHEM.JK,Chemstar Indonesia Tbk.,ihsg,CHEM.JK,cyclical
+CHIP.JK,Pelita Teknologi Global Tbk.,ihsg,CHIP.JK,cyclical
+CINT.JK,Chitose Internasional Tbk.,ihsg,CINT.JK,cyclical
+CITA.JK,Cita Mineral Investindo Tbk.,ihsg,CITA.JK,cyclical
+CITY.JK,Natura City Developments Tbk.,ihsg,CITY.JK,cyclical
+CLAY.JK,Citra Putra Realty Tbk.,ihsg,CLAY.JK,cyclical
+CLEO.JK,Sariguna Primatirta Tbk.,ihsg,CLEO.JK,cyclical
+CLPI.JK,Colorpak Indonesia Tbk.,ihsg,CLPI.JK,cyclical
+CMNP.JK,Citra Marga Nusaphala Persada,ihsg,CMNP.JK,cyclical
+CMNT.JK,Cemindo Gemilang Tbk.,ihsg,CMNT.JK,cyclical
+CMPP.JK,AirAsia Indonesia Tbk.,ihsg,CMPP.JK,cyclical
+CMRY.JK,Cisarua Mountain Dairy Tbk.,ihsg,CMRY.JK,cyclical
+CNKO.JK,Exploitasi Energi Indonesia Tb,ihsg,CNKO.JK,cyclical
+CNMA.JK,Nusantara Sejahtera Raya Tbk.,ihsg,CNMA.JK,cyclical
+CNTX.JK,Century Textile Industry Tbk.,ihsg,CNTX.JK,cyclical
+COAL.JK,Black Diamond Resources Tbk.,ihsg,COAL.JK,cyclical
+COCO.JK,Wahana Interfood Nusantara Tbk,ihsg,COCO.JK,cyclical
+COWL.JK,Cowell Development Tbk.,ihsg,COWL.JK,cyclical
+CPIN.JK,Charoen Pokphand Indonesia Tbk,ihsg,CPIN.JK,cyclical
+CPRI.JK,Capri Nusa Satu Properti Tbk.,ihsg,CPRI.JK,cyclical
+CPRO.JK,Central Proteina Prima Tbk.,ihsg,CPRO.JK,cyclical
+CRAB.JK,Toba Surimi Industries Tbk.,ihsg,CRAB.JK,cyclical
+CRSN.JK,Carsurin Tbk.,ihsg,CRSN.JK,cyclical
+CSAP.JK,Catur Sentosa Adiprana Tbk.,ihsg,CSAP.JK,cyclical
+CSIS.JK,Cahayasakti Investindo Sukses,ihsg,CSIS.JK,cyclical
+CSMI.JK,Cipta Selera Murni Tbk.,ihsg,CSMI.JK,cyclical
+CSRA.JK,Cisadane Sawit Raya Tbk.,ihsg,CSRA.JK,cyclical
+CTBN.JK,Citra Tubindo Tbk.,ihsg,CTBN.JK,cyclical
+CTRA.JK,Ciputra Development Tbk.,ihsg,CTRA.JK,cyclical
+CTTH.JK,Citatah Tbk.,ihsg,CTTH.JK,cyclical
+CUAN.JK,Petrindo Jaya Kreasi Tbk.,ihsg,CUAN.JK,cyclical
+CYBR.JK,ITSEC Asia Tbk.,ihsg,CYBR.JK,cyclical
+DAAZ.JK,Daaz Bara Lestari Tbk.,ihsg,DAAZ.JK,cyclical
+DADA.JK,Diamond Citra Propertindo Tbk.,ihsg,DADA.JK,cyclical
+DART.JK,Duta Anggada Realty Tbk.,ihsg,DART.JK,cyclical
+DATA.JK,Remala Abadi Tbk.,ihsg,DATA.JK,cyclical
+DAYA.JK,Duta Intidaya Tbk.,ihsg,DAYA.JK,cyclical
+DCII.JK,DCI Indonesia Tbk.,ihsg,DCII.JK,cyclical
+DEAL.JK,Dewata Freightinternational Tb,ihsg,DEAL.JK,cyclical
+DEFI.JK,Danasupra Erapacific Tbk.,ihsg,DEFI.JK,cyclical
+DEPO.JK,Caturkarda Depo Bangunan Tbk.,ihsg,DEPO.JK,cyclical
+DEWA.JK,Darma Henwa Tbk,ihsg,DEWA.JK,cyclical
+DEWI.JK,Dewi Shri Farmindo Tbk.,ihsg,DEWI.JK,cyclical
+DFAM.JK,Dafam Property Indonesia Tbk.,ihsg,DFAM.JK,cyclical
+DGIK.JK,Nusa Konstruksi Enjiniring Tbk,ihsg,DGIK.JK,cyclical
+DGNS.JK,Diagnos Laboratorium Utama Tbk,ihsg,DGNS.JK,cyclical
+DGWG.JK,Delta Giri Wacana Tbk.,ihsg,DGWG.JK,cyclical
+DIGI.JK,Arkadia Digital Media Tbk.,ihsg,DIGI.JK,cyclical
+DILD.JK,Intiland Development Tbk.,ihsg,DILD.JK,cyclical
+DIVA.JK,Distribusi Voucher Nusantara T,ihsg,DIVA.JK,cyclical
+DKFT.JK,Central Omega Resources Tbk.,ihsg,DKFT.JK,cyclical
+DLTA.JK,Delta Djakarta Tbk.,ihsg,DLTA.JK,cyclical
+DMAS.JK,Puradelta Lestari Tbk.,ihsg,DMAS.JK,cyclical
+DMMX.JK,Digital Mediatama Maxima Tbk.,ihsg,DMMX.JK,cyclical
+DMND.JK,Diamond Food Indonesia Tbk.,ihsg,DMND.JK,cyclical
+DNAR.JK,Bank Oke Indonesia Tbk.,ihsg,DNAR.JK,banks
+DNET.JK,Indoritel Makmur Internasional,ihsg,DNET.JK,cyclical
+DOID.JK,Delta Dunia Makmur Tbk.,ihsg,DOID.JK,cyclical
+DOOH.JK,Era Media Sejahtera Tbk.,ihsg,DOOH.JK,cyclical
+DOSS.JK,Global Sukses Digital Tbk.,ihsg,DOSS.JK,cyclical
+DPNS.JK,Duta Pertiwi Nusantara Tbk.,ihsg,DPNS.JK,cyclical
+DPUM.JK,Dua Putra Utama Makmur Tbk.,ihsg,DPUM.JK,cyclical
+DRMA.JK,Dharma Polimetal Tbk.,ihsg,DRMA.JK,metals_energy
+DSFI.JK,Dharma Samudera Fishing Indust,ihsg,DSFI.JK,cyclical
+DSNG.JK,Dharma Satya Nusantara Tbk.,ihsg,DSNG.JK,cyclical
+DSSA.JK,Dian Swastatika Sentosa Tbk,ihsg,DSSA.JK,cyclical
+DUCK.JK,Jaya Bersama Indo Tbk.,ihsg,DUCK.JK,cyclical
+DUTI.JK,Duta Pertiwi Tbk,ihsg,DUTI.JK,cyclical
+DVLA.JK,Darya-Varia Laboratoria Tbk.,ihsg,DVLA.JK,cyclical
+DWGL.JK,Dwi Guna Laksana Tbk.,ihsg,DWGL.JK,cyclical
+DYAN.JK,Dyandra Media International Tb,ihsg,DYAN.JK,cyclical
+EAST.JK,Eastparc Hotel Tbk.,ihsg,EAST.JK,cyclical
+ECII.JK,Electronic City Indonesia Tbk.,ihsg,ECII.JK,cyclical
+EDGE.JK,Indointernet Tbk.,ihsg,EDGE.JK,cyclical
+EKAD.JK,Ekadharma International Tbk.,ihsg,EKAD.JK,cyclical
+ELIT.JK,Data Sinergitama Jaya Tbk.,ihsg,ELIT.JK,cyclical
+ELPI.JK,Pelayaran Nasional Ekalya Purn,ihsg,ELPI.JK,cyclical
+ELSA.JK,Elnusa Tbk.,ihsg,ELSA.JK,cyclical
+ELTY.JK,Bakrieland Development Tbk.,ihsg,ELTY.JK,cyclical
+EMDE.JK,Megapolitan Developments Tbk.,ihsg,EMDE.JK,cyclical
+EMTK.JK,Elang Mahkota Teknologi Tbk.,ihsg,EMTK.JK,cyclical
+ENAK.JK,Champ Resto Indonesia Tbk.,ihsg,ENAK.JK,cyclical
+ENRG.JK,Energi Mega Persada Tbk.,ihsg,ENRG.JK,cyclical
+ENVY.JK,Envy Technologies Indonesia Tb,ihsg,ENVY.JK,cyclical
+ENZO.JK,Morenzo Abadi Perkasa Tbk.,ihsg,ENZO.JK,cyclical
+EPAC.JK,Megalestari Epack Sentosaraya,ihsg,EPAC.JK,cyclical
+EPMT.JK,Enseval Putera Megatrading Tbk,ihsg,EPMT.JK,cyclical
+ERAA.JK,Erajaya Swasembada Tbk.,ihsg,ERAA.JK,cyclical
+ERAL.JK,Sinar Eka Selaras Tbk.,ihsg,ERAL.JK,cyclical
+ERTX.JK,Eratex Djaja Tbk.,ihsg,ERTX.JK,cyclical
+ESIP.JK,Sinergi Inti Plastindo Tbk.,ihsg,ESIP.JK,cyclical
+ESSA.JK,ESSA Industries Indonesia Tbk.,ihsg,ESSA.JK,cyclical
+ESTA.JK,Esta Multi Usaha Tbk.,ihsg,ESTA.JK,cyclical
+ESTI.JK,Ever Shine Tex Tbk.,ihsg,ESTI.JK,cyclical
+ETWA.JK,Eterindo Wahanatama Tbk,ihsg,ETWA.JK,cyclical
+EURO.JK,Estee Gold Feet Tbk.,ihsg,EURO.JK,metals_energy
+EXCL.JK,XL Axiata Tbk.,ihsg,EXCL.JK,cyclical
+FAPA.JK,FAP Agri Tbk.,ihsg,FAPA.JK,cyclical
+FAST.JK,Fast Food Indonesia Tbk.,ihsg,FAST.JK,cyclical
+FASW.JK,Fajar Surya Wisesa Tbk.,ihsg,FASW.JK,cyclical
+FILM.JK,MD Entertainment Tbk.,ihsg,FILM.JK,cyclical
+FIMP.JK,Fimperkasa Utama Tbk.,ihsg,FIMP.JK,cyclical
+FIRE.JK,Alfa Energi Investama Tbk.,ihsg,FIRE.JK,cyclical
+FISH.JK,FKS Multi Agro Tbk.,ihsg,FISH.JK,cyclical
+FITT.JK,Hotel Fitra International Tbk.,ihsg,FITT.JK,cyclical
+FLMC.JK,Falmaco Nonwoven Industri Tbk.,ihsg,FLMC.JK,cyclical
+FMII.JK,Fortune Mate Indonesia Tbk,ihsg,FMII.JK,cyclical
+FOLK.JK,Multi Garam Utama Tbk.,ihsg,FOLK.JK,cyclical
+FOOD.JK,Sentra Food Indonesia Tbk.,ihsg,FOOD.JK,cyclical
+FORU.JK,Fortune Indonesia Tbk,ihsg,FORU.JK,cyclical
+FORZ.JK,Forza Land Indonesia Tbk.,ihsg,FORZ.JK,cyclical
+FPNI.JK,Lotte Chemical Titan Tbk.,ihsg,FPNI.JK,cyclical
+FREN.JK,Smartfren Telecom Tbk.,ihsg,FREN.JK,cyclical
+FUJI.JK,Fuji Finance Indonesia Tbk.,ihsg,FUJI.JK,cyclical
+FUTR.JK,Lini Imaji Kreasi Ekosistem Tb,ihsg,FUTR.JK,cyclical
+FWCT.JK,Wijaya Cahaya Timber Tbk.,ihsg,FWCT.JK,cyclical
+GAMA.JK,Aksara Global Development Tbk.,ihsg,GAMA.JK,cyclical
+GDST.JK,Gunawan Dianjaya Steel Tbk.,ihsg,GDST.JK,cyclical
+GDYR.JK,Goodyear Indonesia Tbk.,ihsg,GDYR.JK,cyclical
+GEMA.JK,Gema Grahasarana Tbk.,ihsg,GEMA.JK,cyclical
+GEMS.JK,Golden Energy Mines Tbk.,ihsg,GEMS.JK,energy_exporter
+GGRM.JK,Gudang Garam Tbk.,ihsg,GGRM.JK,cyclical
+GGRP.JK,Gunung Raja Paksi Tbk.,ihsg,GGRP.JK,cyclical
+GHON.JK,Gihon Telekomunikasi Indonesia,ihsg,GHON.JK,telco_defensive
+GIAA.JK,Garuda Indonesia (Persero) Tbk,ihsg,GIAA.JK,cyclical
+GJTL.JK,Gajah Tunggal Tbk.,ihsg,GJTL.JK,cyclical
+GLOB.JK,Globe Kita Terang Tbk.,ihsg,GLOB.JK,cyclical
+GLVA.JK,Galva Technologies Tbk.,ihsg,GLVA.JK,cyclical
+GMFI.JK,Garuda Maintenance Facility Ae,ihsg,GMFI.JK,cyclical
+GMTD.JK,Gowa Makassar Tourism Developm,ihsg,GMTD.JK,cyclical
+GOLD.JK,Visi Telekomunikasi Infrastruk,ihsg,GOLD.JK,telco_defensive
+GOLF.JK,Intra Golflink Resorts Tbk.,ihsg,GOLF.JK,cyclical
+GOLL.JK,Golden Plantation Tbk.,ihsg,GOLL.JK,metals_energy
+GOOD.JK,Garudafood Putra Putri Jaya Tb,ihsg,GOOD.JK,cyclical
+GOTO.JK,GoTo Gojek Tokopedia Tbk.,ihsg,GOTO.JK,cyclical
+GPRA.JK,Perdana Gapuraprima Tbk.,ihsg,GPRA.JK,cyclical
+GPSO.JK,Geoprima Solusi Tbk.,ihsg,GPSO.JK,cyclical
+GRIA.JK,Ingria Pratama Capitalindo Tbk,ihsg,GRIA.JK,cyclical
+GRPH.JK,Griptha Putra Persada Tbk.,ihsg,GRPH.JK,cyclical
+GRPM.JK,Graha Prima Mentari Tbk.,ihsg,GRPM.JK,cyclical
+GSMF.JK,Equity Development Investment,ihsg,GSMF.JK,cyclical
+GTBO.JK,Garda Tujuh Buana Tbk,ihsg,GTBO.JK,cyclical
+GTRA.JK,Grahaprima Suksesmandiri Tbk.,ihsg,GTRA.JK,banks
+GTSI.JK,GTS Internasional Tbk.,ihsg,GTSI.JK,cyclical
+GULA.JK,Aman Agrindo Tbk.,ihsg,GULA.JK,cyclical
+GUNA.JK,Gunanusa Eramandiri Tbk.,ihsg,GUNA.JK,banks
+GWSA.JK,Greenwood Sejahtera Tbk.,ihsg,GWSA.JK,cyclical
+GZCO.JK,Gozco Plantations Tbk.,ihsg,GZCO.JK,cyclical
+HADE.JK,Himalaya Energi Perkasa Tbk.,ihsg,HADE.JK,cyclical
+HAIS.JK,Hasnur Internasional Shipping,ihsg,HAIS.JK,cyclical
+HAJJ.JK,Arsy Buana Travelindo Tbk.,ihsg,HAJJ.JK,cyclical
+HALO.JK,Haloni Jane Tbk.,ihsg,HALO.JK,cyclical
+HATM.JK,Habco Trans Maritima Tbk.,ihsg,HATM.JK,cyclical
+HBAT.JK,Minahasa Membangun Hebat Tbk.,ihsg,HBAT.JK,cyclical
+HDFA.JK,Radana Bhaskara Finance Tbk.,ihsg,HDFA.JK,cyclical
+HDIT.JK,Hensel Davest Indonesia Tbk.,ihsg,HDIT.JK,cyclical
+HDTX.JK,Panasia Indo Resources Tbk.,ihsg,HDTX.JK,cyclical
+HEAL.JK,Medikaloka Hermina Tbk.,ihsg,HEAL.JK,cyclical
+HELI.JK,Jaya Trishindo Tbk.,ihsg,HELI.JK,cyclical
+HERO.JK,DFI Retail Nusantara Tbk.,ihsg,HERO.JK,cyclical
+HEXA.JK,Hexindo Adiperkasa Tbk.,ihsg,HEXA.JK,cyclical
+HGII.JK,Hero Global Investment Tbk.,ihsg,HGII.JK,cyclical
+HILL.JK,Hillcon Tbk.,ihsg,HILL.JK,cyclical
+HITS.JK,Humpuss Intermoda Transportasi,ihsg,HITS.JK,cyclical
+HKMU.JK,HK Metals Utama Tbk.,ihsg,HKMU.JK,metals_energy
+HMSP.JK,H.M. Sampoerna Tbk.,ihsg,HMSP.JK,cyclical
+HOKI.JK,Buyung Poetra Sembada Tbk.,ihsg,HOKI.JK,cyclical
+HOME.JK,Hotel Mandarine Regency Tbk.,ihsg,HOME.JK,cyclical
+HOMI.JK,Grand House Mulia Tbk.,ihsg,HOMI.JK,cyclical
+HOPE.JK,Harapan Duta Pertiwi Tbk.,ihsg,HOPE.JK,cyclical
+HOTL.JK,Saraswati Griya Lestari Tbk.,ihsg,HOTL.JK,cyclical
+HRME.JK,Menteng Heritage Realty Tbk.,ihsg,HRME.JK,cyclical
+HRTA.JK,Hartadinata Abadi Tbk.,ihsg,HRTA.JK,cyclical
+HRUM.JK,Harum Energy Tbk.,ihsg,HRUM.JK,energy_exporter
+HUMI.JK,Humpuss Maritim Internasional,ihsg,HUMI.JK,cyclical
+HYGN.JK,Ecocare Indo Pasifik Tbk.,ihsg,HYGN.JK,cyclical
+IATA.JK,MNC Energy Investments Tbk.,ihsg,IATA.JK,energy_exporter
+IBFN.JK,Intan Baru Prana Tbk.,ihsg,IBFN.JK,cyclical
+IBOS.JK,Indo Boga Sukses Tbk.,ihsg,IBOS.JK,cyclical
+IBST.JK,Inti Bangun Sejahtera Tbk.,ihsg,IBST.JK,cyclical
+ICBP.JK,Indofood CBP Sukses Makmur Tbk,ihsg,ICBP.JK,telco_defensive
+ICON.JK,Island Concepts Indonesia Tbk.,ihsg,ICON.JK,cyclical
+IDEA.JK,Idea Indonesia Akademi Tbk.,ihsg,IDEA.JK,cyclical
+IDPR.JK,Indonesia Pondasi Raya Tbk.,ihsg,IDPR.JK,cyclical
+IFII.JK,Indonesia Fibreboard Industry,ihsg,IFII.JK,cyclical
+IFSH.JK,Ifishdeco Tbk.,ihsg,IFSH.JK,cyclical
+IGAR.JK,Champion Pacific Indonesia Tbk,ihsg,IGAR.JK,cyclical
+IIKP.JK,Inti Agri Resources Tbk,ihsg,IIKP.JK,cyclical
+IKAI.JK,Intikeramik Alamasri Industri,ihsg,IKAI.JK,cyclical
+IKAN.JK,Era Mandiri Cemerlang Tbk.,ihsg,IKAN.JK,banks
+IKBI.JK,Sumi Indo Kabel Tbk.,ihsg,IKBI.JK,cyclical
+IKPM.JK,Ikapharmindo Putramas Tbk.,ihsg,IKPM.JK,cyclical
+IMAS.JK,Indomobil Sukses Internasional,ihsg,IMAS.JK,cyclical
+IMJS.JK,Indomobil Multi Jasa Tbk.,ihsg,IMJS.JK,cyclical
+IMPC.JK,Impack Pratama Industri Tbk.,ihsg,IMPC.JK,cyclical
+INAF.JK,Indofarma Tbk.,ihsg,INAF.JK,cyclical
+INAI.JK,Indal Aluminium Industry Tbk.,ihsg,INAI.JK,cyclical
+INCF.JK,Indo Komoditi Korpora Tbk.,ihsg,INCF.JK,cyclical
+INCI.JK,Intanwijaya Internasional Tbk,ihsg,INCI.JK,cyclical
+INCO.JK,Vale Indonesia Tbk.,ihsg,INCO.JK,cyclical
+INDF.JK,Indofood Sukses Makmur Tbk.,ihsg,INDF.JK,cyclical
+INDO.JK,Royalindo Investa Wijaya Tbk.,ihsg,INDO.JK,cyclical
+INDR.JK,Indo-Rama Synthetics Tbk.,ihsg,INDR.JK,cyclical
+INDS.JK,Indospring Tbk.,ihsg,INDS.JK,cyclical
+INDX.JK,Tanah Laut Tbk,ihsg,INDX.JK,cyclical
+INDY.JK,Indika Energy Tbk.,ihsg,INDY.JK,energy_exporter
+INET.JK,Sinergi Inti Andalan Prima Tbk,ihsg,INET.JK,cyclical
+INKP.JK,Indah Kiat Pulp & Paper Tbk.,ihsg,INKP.JK,cyclical
+INOV.JK,Inocycle Technology Group Tbk.,ihsg,INOV.JK,cyclical
+INPC.JK,Bank Artha Graha Internasional,ihsg,INPC.JK,banks
+INPP.JK,Indonesian Paradise Property T,ihsg,INPP.JK,cyclical
+INPS.JK,Indah Prakasa Sentosa Tbk.,ihsg,INPS.JK,cyclical
+INRU.JK,Toba Pulp Lestari Tbk.,ihsg,INRU.JK,cyclical
+INTA.JK,Intraco Penta Tbk.,ihsg,INTA.JK,cyclical
+INTD.JK,Inter Delta Tbk,ihsg,INTD.JK,cyclical
+INTP.JK,Indocement Tunggal Prakarsa Tb,ihsg,INTP.JK,cyclical
+IOTF.JK,Sumber Sinergi Makmur Tbk.,ihsg,IOTF.JK,cyclical
+IPAC.JK,Era Graharealty Tbk.,ihsg,IPAC.JK,cyclical
+IPCC.JK,Indonesia Kendaraan Terminal T,ihsg,IPCC.JK,cyclical
+IPCM.JK,Jasa Armada Indonesia Tbk.,ihsg,IPCM.JK,cyclical
+IPOL.JK,Indopoly Swakarsa Industry Tbk,ihsg,IPOL.JK,cyclical
+IPPE.JK,Indo Pureco Pratama Tbk.,ihsg,IPPE.JK,cyclical
+IPTV.JK,MNC Vision Networks Tbk.,ihsg,IPTV.JK,cyclical
+IRRA.JK,Itama Ranoraya Tbk.,ihsg,IRRA.JK,cyclical
+IRSX.JK,Aviana Sinar Abadi Tbk.,ihsg,IRSX.JK,cyclical
+ISAP.JK,Isra Presisi Indonesia Tbk.,ihsg,ISAP.JK,cyclical
+ISAT.JK,Indosat Tbk.,ihsg,ISAT.JK,cyclical
+ISEA.JK,Indo American Seafoods Tbk.,ihsg,ISEA.JK,cyclical
+ISSP.JK,Steel Pipe Industry of Indones,ihsg,ISSP.JK,cyclical
+ITIC.JK,Indonesian Tobacco Tbk.,ihsg,ITIC.JK,cyclical
+ITMA.JK,Sumber Energi Andalan Tbk.,ihsg,ITMA.JK,cyclical
+ITMG.JK,Indo Tambangraya Megah Tbk.,ihsg,ITMG.JK,cyclical
+JARR.JK,Jhonlin Agro Raya Tbk.,ihsg,JARR.JK,cyclical
+JAST.JK,Jasnita Telekomindo Tbk.,ihsg,JAST.JK,telco_defensive
+JATI.JK,Informasi Teknologi Indonesia,ihsg,JATI.JK,cyclical
+JAWA.JK,Jaya Agra Wattie Tbk.,ihsg,JAWA.JK,cyclical
+JAYA.JK,Armada Berjaya Trans Tbk.,ihsg,JAYA.JK,cyclical
+JECC.JK,Jembo Cable Company Tbk.,ihsg,JECC.JK,cyclical
+JGLE.JK,Graha Andrasentra Propertindo,ihsg,JGLE.JK,cyclical
+JIHD.JK,Jakarta International Hotels &,ihsg,JIHD.JK,cyclical
+JKON.JK,Jaya Konstruksi Manggala Prata,ihsg,JKON.JK,cyclical
+JKSW.JK,Jakarta Kyoei Steel Works Tbk.,ihsg,JKSW.JK,cyclical
+JMAS.JK,Asuransi Jiwa Syariah Jasa Mit,ihsg,JMAS.JK,cyclical
+JPFA.JK,Japfa Comfeed Indonesia Tbk.,ihsg,JPFA.JK,cyclical
+JRPT.JK,Jaya Real Property Tbk.,ihsg,JRPT.JK,cyclical
+JSKY.JK,Sky Energy Indonesia Tbk.,ihsg,JSKY.JK,energy_exporter
+JSMR.JK,Jasa Marga (Persero) Tbk.,ihsg,JSMR.JK,cyclical
+JSPT.JK,Jakarta Setiabudi Internasiona,ihsg,JSPT.JK,cyclical
+JTPE.JK,Jasuindo Tiga Perkasa Tbk.,ihsg,JTPE.JK,cyclical
+KAEF.JK,Kimia Farma Tbk.,ihsg,KAEF.JK,cyclical
+KARW.JK,Meratus Jasa Prima Tbk.,ihsg,KARW.JK,cyclical
+KAYU.JK,Darmi Bersaudara Tbk.,ihsg,KAYU.JK,cyclical
+KBAG.JK,Karya Bersama Anugerah Tbk.,ihsg,KBAG.JK,cyclical
+KBLI.JK,KMI Wire & Cable Tbk.,ihsg,KBLI.JK,cyclical
+KBLM.JK,Kabelindo Murni Tbk.,ihsg,KBLM.JK,cyclical
+KBLV.JK,First Media Tbk.,ihsg,KBLV.JK,cyclical
+KBRI.JK,Kertas Basuki Rachmat Indonesi,ihsg,KBRI.JK,cyclical
+KDSI.JK,Kedawung Setia Industrial Tbk.,ihsg,KDSI.JK,cyclical
+KDTN.JK,Puri Sentul Permai Tbk.,ihsg,KDTN.JK,cyclical
+KEEN.JK,Kencana Energi Lestari Tbk.,ihsg,KEEN.JK,cyclical
+KEJU.JK,Mulia Boga Raya Tbk.,ihsg,KEJU.JK,cyclical
+KETR.JK,Ketrosden Triasmitra Tbk.,ihsg,KETR.JK,cyclical
+KIAS.JK,Keramika Indonesia Assosiasi T,ihsg,KIAS.JK,cyclical
+KICI.JK,Kedaung Indah Can Tbk,ihsg,KICI.JK,cyclical
+KIJA.JK,Kawasan Industri Jababeka Tbk.,ihsg,KIJA.JK,cyclical
+KING.JK,Hoffmen Cleanindo Tbk.,ihsg,KING.JK,cyclical
+KINO.JK,Kino Indonesia Tbk.,ihsg,KINO.JK,cyclical
+KIOS.JK,Kioson Komersial Indonesia Tbk,ihsg,KIOS.JK,cyclical
+KJEN.JK,Krida Jaringan Nusantara Tbk.,ihsg,KJEN.JK,cyclical
+KKES.JK,Kusuma Kemindo Sentosa Tbk.,ihsg,KKES.JK,cyclical
+KKGI.JK,Resource Alam Indonesia Tbk.,ihsg,KKGI.JK,cyclical
+KLAS.JK,Pelayaran Kurnia Lautan Semest,ihsg,KLAS.JK,cyclical
+KLBF.JK,Kalbe Farma Tbk.,ihsg,KLBF.JK,cyclical
+KLIN.JK,Klinko Karya Imaji Tbk.,ihsg,KLIN.JK,cyclical
+KMDS.JK,Kurniamitra Duta Sentosa Tbk.,ihsg,KMDS.JK,cyclical
+KMTR.JK,Kirana Megatara Tbk.,ihsg,KMTR.JK,cyclical
+KOBX.JK,Kobexindo Tractors Tbk.,ihsg,KOBX.JK,cyclical
+KOCI.JK,Kokoh Exa Nusantara Tbk.,ihsg,KOCI.JK,cyclical
+KOIN.JK,Kokoh Inti Arebama Tbk,ihsg,KOIN.JK,cyclical
+KOKA.JK,Koka Indonesia Tbk.,ihsg,KOKA.JK,cyclical
+KONI.JK,Perdana Bangun Pusaka Tbk,ihsg,KONI.JK,cyclical
+KOPI.JK,Mitra Energi Persada Tbk.,ihsg,KOPI.JK,cyclical
+KOTA.JK,DMS Propertindo Tbk.,ihsg,KOTA.JK,cyclical
+KPAL.JK,Steadfast Marine Tbk.,ihsg,KPAL.JK,cyclical
+KPAS.JK,Cottonindo Ariesta Tbk.,ihsg,KPAS.JK,cyclical
+KPIG.JK,MNC Land Tbk.,ihsg,KPIG.JK,cyclical
+KRAH.JK,Grand Kartech Tbk.,ihsg,KRAH.JK,cyclical
+KRAS.JK,Krakatau Steel (Persero) Tbk.,ihsg,KRAS.JK,cyclical
+KREN.JK,Quantum Clovera Investama Tbk.,ihsg,KREN.JK,cyclical
+KRYA.JK,Bangun Karya Perkasa Jaya Tbk.,ihsg,KRYA.JK,cyclical
+KSIX.JK,Kentanix Supra International T,ihsg,KSIX.JK,cyclical
+KUAS.JK,Ace Oldfields Tbk.,ihsg,KUAS.JK,cyclical
+LABA.JK,Green Power Group Tbk.,ihsg,LABA.JK,cyclical
+LABS.JK,UBC Medical Indonesia Tbk.,ihsg,LABS.JK,cyclical
+LAJU.JK,Jasa Berdikari Logistics Tbk.,ihsg,LAJU.JK,cyclical
+LAND.JK,Trimitra Propertindo Tbk.,ihsg,LAND.JK,cyclical
+LAPD.JK,Leyand International Tbk.,ihsg,LAPD.JK,cyclical
+LCGP.JK,Eureka Prima Jakarta Tbk.,ihsg,LCGP.JK,cyclical
+LCKM.JK,LCK Global Kedaton Tbk.,ihsg,LCKM.JK,cyclical
+LEAD.JK,Logindo Samudramakmur Tbk.,ihsg,LEAD.JK,cyclical
+LFLO.JK,Imago Mulia Persada Tbk.,ihsg,LFLO.JK,cyclical
+LIFE.JK,MSIG Life Insurance Indonesia,ihsg,LIFE.JK,cyclical
+LINK.JK,Link Net Tbk.,ihsg,LINK.JK,cyclical
+LION.JK,Lion Metal Works Tbk.,ihsg,LION.JK,metals_energy
+LIVE.JK,Homeco Victoria Makmur Tbk.,ihsg,LIVE.JK,cyclical
+LMAS.JK,Limas Indonesia Makmur Tbk,ihsg,LMAS.JK,cyclical
+LMAX.JK,Lupromax Pelumas Indonesia Tbk,ihsg,LMAX.JK,cyclical
+LMPI.JK,Langgeng Makmur Industri Tbk.,ihsg,LMPI.JK,cyclical
+LMSH.JK,Lionmesh Prima Tbk.,ihsg,LMSH.JK,cyclical
+LOPI.JK,Logisticsplus International Tb,ihsg,LOPI.JK,cyclical
+LPCK.JK,Lippo Cikarang Tbk,ihsg,LPCK.JK,cyclical
+LPGI.JK,Lippo General Insurance Tbk.,ihsg,LPGI.JK,cyclical
+LPIN.JK,Multi Prima Sejahtera Tbk,ihsg,LPIN.JK,cyclical
+LPKR.JK,Lippo Karawaci Tbk.,ihsg,LPKR.JK,cyclical
+LPLI.JK,Star Pacific Tbk,ihsg,LPLI.JK,cyclical
+LPPF.JK,Matahari Department Store Tbk.,ihsg,LPPF.JK,cyclical
+LPPS.JK,Lenox Pasifik Investama Tbk.,ihsg,LPPS.JK,cyclical
+LRNA.JK,Eka Sari Lorena Transport Tbk.,ihsg,LRNA.JK,cyclical
+LSIP.JK,PP London Sumatra Indonesia Tb,ihsg,LSIP.JK,cyclical
+LTLS.JK,Lautan Luas Tbk.,ihsg,LTLS.JK,cyclical
+LUCK.JK,Sentral Mitra Informatika Tbk.,ihsg,LUCK.JK,cyclical
+LUCY.JK,Lima Dua Lima Tiga Tbk.,ihsg,LUCY.JK,cyclical
+MABA.JK,Marga Abhinaya Abadi Tbk.,ihsg,MABA.JK,cyclical
+MAGP.JK,Multi Agro Gemilang Plantation,ihsg,MAGP.JK,cyclical
+MAHA.JK,Mandiri Herindo Adiperkasa Tbk,ihsg,MAHA.JK,banks
+MAIN.JK,Malindo Feedmill Tbk.,ihsg,MAIN.JK,cyclical
+MAMI.JK,Mas Murni Indonesia Tbk,ihsg,MAMI.JK,cyclical
+MANG.JK,Manggung Polahraya Tbk.,ihsg,MANG.JK,cyclical
+MAPA.JK,Map Aktif Adiperkasa Tbk.,ihsg,MAPA.JK,cyclical
+MAPB.JK,MAP Boga Adiperkasa Tbk.,ihsg,MAPB.JK,cyclical
+MAPI.JK,Mitra Adiperkasa Tbk.,ihsg,MAPI.JK,cyclical
+MARI.JK,Mahaka Radio Integra Tbk.,ihsg,MARI.JK,cyclical
+MARK.JK,Mark Dynamics Indonesia Tbk.,ihsg,MARK.JK,cyclical
+MASA.JK,Multistrada Arah Sarana Tbk.,ihsg,MASA.JK,cyclical
+MASB.JK,Bank Multiarta Sentosa Tbk.,ihsg,MASB.JK,banks
+MAXI.JK,Maxindo Karya Anugerah Tbk.,ihsg,MAXI.JK,cyclical
+MAYA.JK,Bank Mayapada Internasional Tb,ihsg,MAYA.JK,banks
+MBAP.JK,Mitrabara Adiperdana Tbk.,ihsg,MBAP.JK,cyclical
+MBMA.JK,Merdeka Battery Materials Tbk.,ihsg,MBMA.JK,cyclical
+MBSS.JK,Mitrabahtera Segara Sejati Tbk,ihsg,MBSS.JK,cyclical
+MBTO.JK,Martina Berto Tbk.,ihsg,MBTO.JK,cyclical
+MCAS.JK,M Cash Integrasi Tbk.,ihsg,MCAS.JK,cyclical
+MCOL.JK,Prima Andalan Mandiri Tbk.,ihsg,MCOL.JK,banks
+MCOR.JK,Bank China Construction Bank I,ihsg,MCOR.JK,banks
+MDIA.JK,Intermedia Capital Tbk.,ihsg,MDIA.JK,cyclical
+MDIY.JK,Daya Intiguna Yasa Tbk.,ihsg,MDIY.JK,cyclical
+MDKA.JK,Merdeka Copper Gold Tbk.,ihsg,MDKA.JK,metals_energy
+MDKI.JK,Emdeki Utama Tbk.,ihsg,MDKI.JK,cyclical
+MDLN.JK,Modernland Realty Tbk.,ihsg,MDLN.JK,cyclical
+MDRN.JK,Modern Internasional Tbk.,ihsg,MDRN.JK,cyclical
+MEDC.JK,Medco Energi Internasional Tbk,ihsg,MEDC.JK,cyclical
+MEDS.JK,Hetzer Medical Indonesia Tbk.,ihsg,MEDS.JK,cyclical
+MEGA.JK,Bank Mega Tbk.,ihsg,MEGA.JK,banks
+MEJA.JK,Harta Djaya Karya Tbk.,ihsg,MEJA.JK,cyclical
+MENN.JK,Menn Teknologi Indonesia Tbk.,ihsg,MENN.JK,cyclical
+MERK.JK,Merck Tbk.,ihsg,MERK.JK,cyclical
+META.JK,Nusantara Infrastructure Tbk.,ihsg,META.JK,telco_defensive
+MFIN.JK,Mandala Multifinance Tbk.,ihsg,MFIN.JK,cyclical
+MFMI.JK,Multifiling Mitra Indonesia Tb,ihsg,MFMI.JK,cyclical
+MGLV.JK,Panca Anugrah Wisesa Tbk.,ihsg,MGLV.JK,cyclical
+MGNA.JK,Magna Investama Mandiri Tbk.,ihsg,MGNA.JK,banks
+MGRO.JK,Mahkota Group Tbk.,ihsg,MGRO.JK,cyclical
+MHKI.JK,Multi Hanna Kreasindo Tbk.,ihsg,MHKI.JK,cyclical
+MICE.JK,Multi Indocitra Tbk.,ihsg,MICE.JK,cyclical
+MIDI.JK,Midi Utama Indonesia Tbk.,ihsg,MIDI.JK,cyclical
+MIKA.JK,Mitra Keluarga Karyasehat Tbk.,ihsg,MIKA.JK,cyclical
+MINA.JK,Sanurhasta Mitra Tbk.,ihsg,MINA.JK,cyclical
+MIRA.JK,Mitra International Resources,ihsg,MIRA.JK,cyclical
+MITI.JK,Mitra Investindo Tbk.,ihsg,MITI.JK,cyclical
+MKAP.JK,Multikarya Asia Pasifik Raya T,ihsg,MKAP.JK,cyclical
+MKNT.JK,Mitra Komunikasi Nusantara Tbk,ihsg,MKNT.JK,cyclical
+MKPI.JK,Metropolitan Kentjana Tbk.,ihsg,MKPI.JK,cyclical
+MKTR.JK,Menthobi Karyatama Raya Tbk.,ihsg,MKTR.JK,cyclical
+MLBI.JK,Multi Bintang Indonesia Tbk.,ihsg,MLBI.JK,cyclical
+MLIA.JK,Mulia Industrindo Tbk,ihsg,MLIA.JK,cyclical
+MLPL.JK,Multipolar Tbk.,ihsg,MLPL.JK,cyclical
+MLPT.JK,Multipolar Technology Tbk.,ihsg,MLPT.JK,cyclical
+MMIX.JK,Multi Medika Internasional Tbk,ihsg,MMIX.JK,cyclical
+MMLP.JK,Mega Manunggal Property Tbk.,ihsg,MMLP.JK,cyclical
+MNCN.JK,Media Nusantara Citra Tbk.,ihsg,MNCN.JK,cyclical
+MOLI.JK,Madusari Murni Indah Tbk.,ihsg,MOLI.JK,cyclical
+MORA.JK,Mora Telematika Indonesia Tbk.,ihsg,MORA.JK,cyclical
+MPIX.JK,Mitra Pedagang Indonesia Tbk.,ihsg,MPIX.JK,cyclical
+MPMX.JK,Mitra Pinasthika Mustika Tbk.,ihsg,MPMX.JK,cyclical
+MPOW.JK,Megapower Makmur Tbk.,ihsg,MPOW.JK,cyclical
+MPPA.JK,Matahari Putra Prima Tbk.,ihsg,MPPA.JK,cyclical
+MPRO.JK,Maha Properti Indonesia Tbk.,ihsg,MPRO.JK,cyclical
+MPXL.JK,MPX Logistics International Tb,ihsg,MPXL.JK,cyclical
+MRAT.JK,Mustika Ratu Tbk.,ihsg,MRAT.JK,cyclical
+MREI.JK,Maskapai Reasuransi Indonesia,ihsg,MREI.JK,cyclical
+MSIE.JK,Multisarana Intan Eduka Tbk.,ihsg,MSIE.JK,cyclical
+MSIN.JK,MNC Digital Entertainment Tbk.,ihsg,MSIN.JK,cyclical
+MSJA.JK,Multi Spunindo Jaya Tbk.,ihsg,MSJA.JK,cyclical
+MSKY.JK,MNC Sky Vision Tbk.,ihsg,MSKY.JK,cyclical
+MSTI.JK,Mastersystem Infotama Tbk.,ihsg,MSTI.JK,cyclical
+MTDL.JK,Metrodata Electronics Tbk.,ihsg,MTDL.JK,cyclical
+MTEL.JK,Dayamitra Telekomunikasi Tbk.,ihsg,MTEL.JK,telco_defensive
+MTFN.JK,Capitalinc Investment Tbk.,ihsg,MTFN.JK,cyclical
+MTLA.JK,Metropolitan Land Tbk.,ihsg,MTLA.JK,cyclical
+MTMH.JK,Murni Sadar Tbk.,ihsg,MTMH.JK,cyclical
+MTPS.JK,Meta Epsi Tbk.,ihsg,MTPS.JK,cyclical
+MTRA.JK,Mitra Pemuda Tbk.,ihsg,MTRA.JK,cyclical
+MTSM.JK,Metro Realty Tbk.,ihsg,MTSM.JK,cyclical
+MTWI.JK,Malacca Trust Wuwungan Insuran,ihsg,MTWI.JK,cyclical
+MUTU.JK,Mutuagung Lestari Tbk.,ihsg,MUTU.JK,cyclical
+MYOH.JK,Samindo Resources Tbk.,ihsg,MYOH.JK,cyclical
+MYOR.JK,Mayora Indah Tbk.,ihsg,MYOR.JK,cyclical
+MYRX.JK,Hanson International Tbk.,ihsg,MYRX.JK,cyclical
+MYTX.JK,Asia Pacific Investama Tbk.,ihsg,MYTX.JK,cyclical
+NAIK.JK,Adiwarna Anugerah Abadi Tbk.,ihsg,NAIK.JK,cyclical
+NANO.JK,Nanotech Indonesia Global Tbk.,ihsg,NANO.JK,cyclical
+NASA.JK,Andalan Perkasa Abadi Tbk.,ihsg,NASA.JK,cyclical
+NASI.JK,Wahana Inti Makmur Tbk.,ihsg,NASI.JK,cyclical
+NATO.JK,Surya Permata Andalan Tbk.,ihsg,NATO.JK,cyclical
+NAYZ.JK,Hassana Boga Sejahtera Tbk.,ihsg,NAYZ.JK,cyclical
+NCKL.JK,Trimegah Bangun Persada Tbk.,ihsg,NCKL.JK,cyclical
+NELY.JK,Pelayaran Nelly Dwi Putri Tbk.,ihsg,NELY.JK,cyclical
+NEST.JK,Esta Indonesia Tbk.,ihsg,NEST.JK,cyclical
+NETV.JK,MDTV Media Technologies Tbk.,ihsg,NETV.JK,cyclical
+NFCX.JK,NFC Indonesia Tbk.,ihsg,NFCX.JK,cyclical
+NICE.JK,Adhi Kartiko Pratama Tbk.,ihsg,NICE.JK,cyclical
+NICK.JK,Charnic Capital Tbk.,ihsg,NICK.JK,cyclical
+NICL.JK,PAM Mineral Tbk.,ihsg,NICL.JK,cyclical
+NIKL.JK,Pelat Timah Nusantara Tbk.,ihsg,NIKL.JK,metals_energy
+NINE.JK,Techno9 Indonesia Tbk.,ihsg,NINE.JK,cyclical
+NIPS.JK,Nipress Tbk.,ihsg,NIPS.JK,cyclical
+NIRO.JK,City Retail Developments Tbk.,ihsg,NIRO.JK,cyclical
+NISP.JK,Bank OCBC NISP Tbk.,ihsg,NISP.JK,banks
+NOBU.JK,Bank Nationalnobu Tbk.,ihsg,NOBU.JK,banks
+NPGF.JK,Nusa Palapa Gemilang Tbk.,ihsg,NPGF.JK,cyclical
+NRCA.JK,Nusa Raya Cipta Tbk.,ihsg,NRCA.JK,cyclical
+NSSS.JK,Nusantara Sawit Sejahtera Tbk.,ihsg,NSSS.JK,cyclical
+NTBK.JK,Nusatama Berkah Tbk.,ihsg,NTBK.JK,cyclical
+NUSA.JK,Sinergi Megah Internusa Tbk.,ihsg,NUSA.JK,cyclical
+NZIA.JK,Nusantara Almazia Tbk.,ihsg,NZIA.JK,cyclical
+OASA.JK,Maharaksa Biru Energi Tbk.,ihsg,OASA.JK,cyclical
+OBAT.JK,Brigit Biofarmaka Teknologi Tb,ihsg,OBAT.JK,banks
+OBMD.JK,OBM Drilchem Tbk.,ihsg,OBMD.JK,cyclical
+OCAP.JK,Onix Capital Tbk.,ihsg,OCAP.JK,cyclical
+OILS.JK,Indo Oil Perkasa Tbk.,ihsg,OILS.JK,energy_exporter
+OKAS.JK,Ancora Indonesia Resources Tbk,ihsg,OKAS.JK,cyclical
+OLIV.JK,Oscar Mitra Sukses Sejahtera T,ihsg,OLIV.JK,cyclical
+OMED.JK,Jayamas Medica Industri Tbk.,ihsg,OMED.JK,cyclical
+OMRE.JK,Indonesia Prima Property Tbk,ihsg,OMRE.JK,cyclical
+OPMS.JK,Optima Prima Metal Sinergi Tbk,ihsg,OPMS.JK,metals_energy
+PACK.JK,Abadi Nusantara Hijau Investam,ihsg,PACK.JK,cyclical
+PADA.JK,Personel Alih Daya Tbk.,ihsg,PADA.JK,cyclical
+PADI.JK,Minna Padi Investama Sekuritas,ihsg,PADI.JK,cyclical
+PALM.JK,Provident Investasi Bersama Tb,ihsg,PALM.JK,cyclical
+PAMG.JK,Bima Sakti Pertiwi Tbk.,ihsg,PAMG.JK,cyclical
+PANI.JK,Pantai Indah Kapuk Dua Tbk.,ihsg,PANI.JK,cyclical
+PANR.JK,Panorama Sentrawisata Tbk.,ihsg,PANR.JK,cyclical
+PANS.JK,Panin Sekuritas Tbk.,ihsg,PANS.JK,cyclical
+PART.JK,Cipta Perdana Lancar Tbk.,ihsg,PART.JK,cyclical
+PBID.JK,Panca Budi Idaman Tbk.,ihsg,PBID.JK,cyclical
+PBRX.JK,Pan Brothers Tbk.,ihsg,PBRX.JK,cyclical
+PBSA.JK,Paramita Bangun Sarana Tbk.,ihsg,PBSA.JK,cyclical
+PCAR.JK,Prima Cakrawala Abadi Tbk.,ihsg,PCAR.JK,cyclical
+PDES.JK,Destinasi Tirta Nusantara Tbk,ihsg,PDES.JK,cyclical
+PDPP.JK,Primadaya Plastisindo Tbk.,ihsg,PDPP.JK,cyclical
+PEGE.JK,Panca Global Kapital Tbk.,ihsg,PEGE.JK,cyclical
+PEHA.JK,Phapros Tbk.,ihsg,PEHA.JK,cyclical
+PEVE.JK,Penta Valent Tbk.,ihsg,PEVE.JK,cyclical
+PGAS.JK,Perusahaan Gas Negara Tbk.,ihsg,PGAS.JK,energy_exporter
+PGEO.JK,Pertamina Geothermal Energy Tb,ihsg,PGEO.JK,energy_exporter
+PGJO.JK,Tourindo Guide Indonesia Tbk.,ihsg,PGJO.JK,cyclical
+PGLI.JK,Pembangunan Graha Lestari Inda,ihsg,PGLI.JK,cyclical
+PGUN.JK,Pradiksi Gunatama Tbk.,ihsg,PGUN.JK,cyclical
+PICO.JK,Pelangi Indah Canindo Tbk,ihsg,PICO.JK,cyclical
+PIPA.JK,Multi Makmur Lemindo Tbk.,ihsg,PIPA.JK,cyclical
+PJAA.JK,Pembangunan Jaya Ancol Tbk.,ihsg,PJAA.JK,cyclical
+PKPK.JK,Perdana Karya Perkasa Tbk,ihsg,PKPK.JK,cyclical
+PLAN.JK,Planet Properindo Jaya Tbk.,ihsg,PLAN.JK,cyclical
+PLAS.JK,Polaris Investama Tbk,ihsg,PLAS.JK,cyclical
+PLIN.JK,Plaza Indonesia Realty Tbk.,ihsg,PLIN.JK,cyclical
+PMJS.JK,Putra Mandiri Jembar Tbk.,ihsg,PMJS.JK,banks
+PMMP.JK,Panca Mitra Multiperdana Tbk.,ihsg,PMMP.JK,cyclical
+PNBN.JK,Bank Pan Indonesia Tbk,ihsg,PNBN.JK,banks
+PNBS.JK,Bank Panin Dubai Syariah Tbk.,ihsg,PNBS.JK,banks
+PNGO.JK,Pinago Utama Tbk.,ihsg,PNGO.JK,cyclical
+PNIN.JK,Paninvest Tbk.,ihsg,PNIN.JK,cyclical
+PNLF.JK,Panin Financial Tbk.,ihsg,PNLF.JK,cyclical
+PNSE.JK,Pudjiadi & Sons Tbk.,ihsg,PNSE.JK,cyclical
+POLA.JK,Pool Advista Finance Tbk.,ihsg,POLA.JK,cyclical
+POLI.JK,Pollux Hotels Group Tbk.,ihsg,POLI.JK,cyclical
+POLL.JK,Pollux Properties Indonesia Tb,ihsg,POLL.JK,cyclical
+POLU.JK,Golden Flower Tbk.,ihsg,POLU.JK,metals_energy
+POLY.JK,Asia Pacific Fibers Tbk,ihsg,POLY.JK,cyclical
+POOL.JK,Pool Advista Indonesia Tbk.,ihsg,POOL.JK,cyclical
+PORT.JK,Nusantara Pelabuhan Handal Tbk,ihsg,PORT.JK,telco_defensive
+POSA.JK,Bliss Properti Indonesia Tbk.,ihsg,POSA.JK,cyclical
+POWR.JK,Cikarang Listrindo Tbk.,ihsg,POWR.JK,cyclical
+PPGL.JK,Prima Globalindo Logistik Tbk.,ihsg,PPGL.JK,cyclical
+PPRE.JK,PP Presisi Tbk.,ihsg,PPRE.JK,cyclical
+PPRI.JK,Paperocks Indonesia Tbk.,ihsg,PPRI.JK,cyclical
+PPRO.JK,PP Properti Tbk.,ihsg,PPRO.JK,cyclical
+PRAS.JK,Prima Alloy Steel Universal Tb,ihsg,PRAS.JK,cyclical
+PRAY.JK,Famon Awal Bros Sedaya Tbk.,ihsg,PRAY.JK,cyclical
+PRDA.JK,Prodia Widyahusada Tbk.,ihsg,PRDA.JK,cyclical
+PRIM.JK,Royal Prima Tbk.,ihsg,PRIM.JK,cyclical
+PSAB.JK,J Resources Asia Pasifik Tbk.,ihsg,PSAB.JK,cyclical
+PSDN.JK,Prasidha Aneka Niaga Tbk,ihsg,PSDN.JK,cyclical
+PSGO.JK,Palma Serasih Tbk.,ihsg,PSGO.JK,cyclical
+PSKT.JK,Red Planet Indonesia Tbk.,ihsg,PSKT.JK,cyclical
+PSSI.JK,IMC Pelita Logistik Tbk.,ihsg,PSSI.JK,cyclical
+PTBA.JK,Bukit Asam Tbk.,ihsg,PTBA.JK,cyclical
+PTDU.JK,Djasa Ubersakti Tbk.,ihsg,PTDU.JK,cyclical
+PTIS.JK,Indo Straits Tbk.,ihsg,PTIS.JK,cyclical
+PTMP.JK,Mitra Pack Tbk.,ihsg,PTMP.JK,cyclical
+PTMR.JK,Master Print Tbk.,ihsg,PTMR.JK,cyclical
+PTPP.JK,PP (Persero) Tbk.,ihsg,PTPP.JK,cyclical
+PTPS.JK,Pulau Subur Tbk.,ihsg,PTPS.JK,cyclical
+PTPW.JK,Pratama Widya Tbk.,ihsg,PTPW.JK,cyclical
+PTRO.JK,Petrosea Tbk.,ihsg,PTRO.JK,cyclical
+PTSN.JK,Sat Nusapersada Tbk,ihsg,PTSN.JK,cyclical
+PTSP.JK,Pioneerindo Gourmet Internatio,ihsg,PTSP.JK,cyclical
+PUDP.JK,Pudjiadi Prestige Tbk.,ihsg,PUDP.JK,cyclical
+PURA.JK,Putra Rajawali Kencana Tbk.,ihsg,PURA.JK,cyclical
+PURE.JK,Trinitan Metals and Minerals T,ihsg,PURE.JK,metals_energy
+PURI.JK,Puri Global Sukses Tbk.,ihsg,PURI.JK,cyclical
+PWON.JK,Pakuwon Jati Tbk.,ihsg,PWON.JK,cyclical
+PYFA.JK,Pyridam Farma Tbk,ihsg,PYFA.JK,cyclical
+PZZA.JK,Sarimelati Kencana Tbk.,ihsg,PZZA.JK,cyclical
+RAAM.JK,Tripar Multivision Plus Tbk.,ihsg,RAAM.JK,cyclical
+RAFI.JK,Sari Kreasi Boga Tbk.,ihsg,RAFI.JK,cyclical
+RAJA.JK,Rukun Raharja Tbk.,ihsg,RAJA.JK,cyclical
+RALS.JK,Ramayana Lestari Sentosa Tbk.,ihsg,RALS.JK,cyclical
+RANC.JK,Supra Boga Lestari Tbk.,ihsg,RANC.JK,cyclical
+RATU.JK,Raharja Energi Cepu Tbk.,ihsg,RATU.JK,cyclical
+RBMS.JK,Ristia Bintang Mahkotasejati T,ihsg,RBMS.JK,cyclical
+RCCC.JK,Utama Radar Cahaya Tbk.,ihsg,RCCC.JK,cyclical
+RDTX.JK,Roda Vivatex Tbk,ihsg,RDTX.JK,cyclical
+REAL.JK,Repower Asia Indonesia Tbk.,ihsg,REAL.JK,cyclical
+RELF.JK,Graha Mitra Asia Tbk.,ihsg,RELF.JK,cyclical
+RELI.JK,Reliance Sekuritas Indonesia T,ihsg,RELI.JK,cyclical
+RGAS.JK,Kian Santang Muliatama Tbk.,ihsg,RGAS.JK,cyclical
+RICY.JK,Ricky Putra Globalindo Tbk,ihsg,RICY.JK,cyclical
+RIGS.JK,Rig Tenders Indonesia Tbk.,ihsg,RIGS.JK,cyclical
+RIMO.JK,Rimo International Lestari Tbk,ihsg,RIMO.JK,cyclical
+RISE.JK,Jaya Sukses Makmur Sentosa Tbk,ihsg,RISE.JK,cyclical
+RMKE.JK,RMK Energy Tbk.,ihsg,RMKE.JK,energy_exporter
+RMKO.JK,Royaltama Mulia Kontraktorindo,ihsg,RMKO.JK,cyclical
+ROCK.JK,Rockfields Properti Indonesia,ihsg,ROCK.JK,cyclical
+RODA.JK,Pikko Land Development Tbk.,ihsg,RODA.JK,cyclical
+RONY.JK,Aesler Grup Internasional Tbk.,ihsg,RONY.JK,cyclical
+ROTI.JK,Nippon Indosari Corpindo Tbk.,ihsg,ROTI.JK,cyclical
+RSCH.JK,Charlie Hospital Semarang Tbk.,ihsg,RSCH.JK,cyclical
+RSGK.JK,Kedoya Adyaraya Tbk.,ihsg,RSGK.JK,cyclical
+RUIS.JK,Radiant Utama Interinsco Tbk.,ihsg,RUIS.JK,cyclical
+RUNS.JK,Global Sukses Solusi Tbk.,ihsg,RUNS.JK,cyclical
+SAFE.JK,Steady Safe Tbk,ihsg,SAFE.JK,cyclical
+SAGE.JK,Saptausaha Gemilangindah Tbk.,ihsg,SAGE.JK,cyclical
+SAME.JK,Sarana Meditama Metropolitan T,ihsg,SAME.JK,cyclical
+SAMF.JK,Saraswanti Anugerah Makmur Tbk,ihsg,SAMF.JK,cyclical
+SAPX.JK,Satria Antaran Prima Tbk.,ihsg,SAPX.JK,cyclical
+SATU.JK,Kota Satu Properti Tbk.,ihsg,SATU.JK,cyclical
+SBAT.JK,Sejahtera Bintang Abadi Textil,ihsg,SBAT.JK,cyclical
+SBMA.JK,Surya Biru Murni Acetylene Tbk,ihsg,SBMA.JK,cyclical
+SCCO.JK,Supreme Cable Manufacturing &,ihsg,SCCO.JK,cyclical
+SCMA.JK,Surya Citra Media Tbk.,ihsg,SCMA.JK,cyclical
+SCNP.JK,Selaras Citra Nusantara Perkas,ihsg,SCNP.JK,cyclical
+SCPI.JK,Organon Pharma Indonesia Tbk.,ihsg,SCPI.JK,cyclical
+SDMU.JK,Sidomulyo Selaras Tbk.,ihsg,SDMU.JK,cyclical
+SDPC.JK,Millennium Pharmacon Internati,ihsg,SDPC.JK,cyclical
+SDRA.JK,Bank Woori Saudara Indonesia 1,ihsg,SDRA.JK,banks
+SEMA.JK,Semacom Integrated Tbk.,ihsg,SEMA.JK,cyclical
+SFAN.JK,Surya Fajar Capital Tbk.,ihsg,SFAN.JK,cyclical
+SGER.JK,Sumber Global Energy Tbk.,ihsg,SGER.JK,energy_exporter
+SGRO.JK,Sampoerna Agro Tbk.,ihsg,SGRO.JK,cyclical
+SHID.JK,Hotel Sahid Jaya International,ihsg,SHID.JK,cyclical
+SHIP.JK,Sillo Maritime Perdana Tbk.,ihsg,SHIP.JK,cyclical
+SICO.JK,Sigma Energy Compressindo Tbk.,ihsg,SICO.JK,energy_exporter
+SIDO.JK,Industri Jamu dan Farmasi Sido,ihsg,SIDO.JK,cyclical
+SILO.JK,Siloam International Hospitals,ihsg,SILO.JK,cyclical
+SIMA.JK,Siwani Makmur Tbk,ihsg,SIMA.JK,cyclical
+SIMP.JK,Salim Ivomas Pratama Tbk.,ihsg,SIMP.JK,cyclical
+SINI.JK,Singaraja Putra Tbk.,ihsg,SINI.JK,cyclical
+SIPD.JK,Sreeya Sewu Indonesia Tbk.,ihsg,SIPD.JK,cyclical
+SKBM.JK,Sekar Bumi Tbk.,ihsg,SKBM.JK,cyclical
+SKLT.JK,Sekar Laut Tbk.,ihsg,SKLT.JK,cyclical
+SKRN.JK,Superkrane Mitra Utama Tbk.,ihsg,SKRN.JK,cyclical
+SKYB.JK,Northcliff Citranusa Indonesia,ihsg,SKYB.JK,cyclical
+SLIS.JK,Gaya Abadi Sempurna Tbk.,ihsg,SLIS.JK,cyclical
+SMAR.JK,Smart Tbk.,ihsg,SMAR.JK,cyclical
+SMBR.JK,Semen Baturaja Tbk.,ihsg,SMBR.JK,cyclical
+SMCB.JK,Solusi Bangun Indonesia Tbk.,ihsg,SMCB.JK,cyclical
+SMDM.JK,Suryamas Dutamakmur Tbk.,ihsg,SMDM.JK,cyclical
+SMDR.JK,Samudera Indonesia  Tbk.,ihsg,SMDR.JK,cyclical
+SMGA.JK,Sumber Mineral Global Abadi Tb,ihsg,SMGA.JK,cyclical
+SMGR.JK,Semen Indonesia (Persero) Tbk.,ihsg,SMGR.JK,cyclical
+SMIL.JK,Sarana Mitra Luas Tbk.,ihsg,SMIL.JK,cyclical
+SMKL.JK,Satyamitra Kemas Lestari Tbk.,ihsg,SMKL.JK,metals_energy
+SMKM.JK,Sumber Mas Konstruksi Tbk.,ihsg,SMKM.JK,cyclical
+SMLE.JK,Sinergi Multi Lestarindo Tbk.,ihsg,SMLE.JK,cyclical
+SMMA.JK,Sinarmas Multiartha Tbk.,ihsg,SMMA.JK,cyclical
+SMMT.JK,Golden Eagle Energy Tbk.,ihsg,SMMT.JK,energy_exporter
+SMRA.JK,Summarecon Agung Tbk.,ihsg,SMRA.JK,cyclical
+SMRU.JK,SMR Utama Tbk.,ihsg,SMRU.JK,cyclical
+SMSM.JK,Selamat Sempurna Tbk.,ihsg,SMSM.JK,cyclical
+SNLK.JK,Sunter Lakeside Hotel Tbk.,ihsg,SNLK.JK,cyclical
+SOCI.JK,Soechi Lines Tbk.,ihsg,SOCI.JK,cyclical
+SOFA.JK,Boston Furniture Industries Tb,ihsg,SOFA.JK,cyclical
+SOHO.JK,Soho Global Health Tbk.,ihsg,SOHO.JK,cyclical
+SOLA.JK,Xolare RCR Energy Tbk.,ihsg,SOLA.JK,energy_exporter
+SONA.JK,Sona Topas Tourism Industry Tb,ihsg,SONA.JK,cyclical
+SOSS.JK,Shield On Service Tbk.,ihsg,SOSS.JK,cyclical
+SOTS.JK,Satria Mega Kencana Tbk.,ihsg,SOTS.JK,cyclical
+SOUL.JK,Mitra Tirta Buwana Tbk.,ihsg,SOUL.JK,cyclical
+SPMA.JK,Suparma Tbk.,ihsg,SPMA.JK,cyclical
+SPRE.JK,Soraya Berjaya Indonesia Tbk.,ihsg,SPRE.JK,cyclical
+SPTO.JK,Surya Pertiwi Tbk.,ihsg,SPTO.JK,cyclical
+SQMI.JK,Wilton Makmur Indonesia Tbk.,ihsg,SQMI.JK,cyclical
+SRAJ.JK,Sejahteraraya Anugrahjaya Tbk.,ihsg,SRAJ.JK,cyclical
+SRIL.JK,Sri Rejeki Isman Tbk.,ihsg,SRIL.JK,cyclical
+SRSN.JK,Indo Acidatama Tbk,ihsg,SRSN.JK,cyclical
+SRTG.JK,Saratoga Investama Sedaya Tbk.,ihsg,SRTG.JK,cyclical
+SSIA.JK,Surya Semesta Internusa Tbk.,ihsg,SSIA.JK,cyclical
+SSMS.JK,Sawit Sumbermas Sarana Tbk.,ihsg,SSMS.JK,cyclical
+SSTM.JK,Sunson Textile Manufacture Tbk,ihsg,SSTM.JK,cyclical
+STAA.JK,Sumber Tani Agung Resources Tb,ihsg,STAA.JK,cyclical
+STAR.JK,Buana Artha Anugerah Tbk.,ihsg,STAR.JK,cyclical
+STRK.JK,Lovina Beach Brewery Tbk.,ihsg,STRK.JK,cyclical
+STTP.JK,Siantar Top Tbk.,ihsg,STTP.JK,cyclical
+SUGI.JK,Sugih Energy Tbk.,ihsg,SUGI.JK,energy_exporter
+SULI.JK,SLJ Global Tbk.,ihsg,SULI.JK,cyclical
+SUNI.JK,Sunindo Pratama Tbk.,ihsg,SUNI.JK,cyclical
+SUPR.JK,Solusi Tunas Pratama Tbk.,ihsg,SUPR.JK,cyclical
+SURE.JK,Super Energy Tbk.,ihsg,SURE.JK,energy_exporter
+SURI.JK,Maja Agung Latexindo Tbk.,ihsg,SURI.JK,cyclical
+SWAT.JK,Sriwahana Adityakarta Tbk.,ihsg,SWAT.JK,cyclical
+SWID.JK,Saraswanti Indoland Developmen,ihsg,SWID.JK,cyclical
+TALF.JK,Tunas Alfin Tbk.,ihsg,TALF.JK,cyclical
+TAMA.JK,Lancartama Sejati Tbk.,ihsg,TAMA.JK,cyclical
+TAMU.JK,Pelayaran Tamarin Samudra Tbk.,ihsg,TAMU.JK,cyclical
+TAPG.JK,Triputra Agro Persada Tbk.,ihsg,TAPG.JK,cyclical
+TARA.JK,Agung Semesta Sejahtera Tbk.,ihsg,TARA.JK,cyclical
+TAXI.JK,Express Transindo Utama Tbk.,ihsg,TAXI.JK,cyclical
+TAYS.JK,Jaya Swarasa Agung Tbk.,ihsg,TAYS.JK,cyclical
+TBIG.JK,Tower Bersama Infrastructure T,ihsg,TBIG.JK,telco_defensive
+TBLA.JK,Tunas Baru Lampung Tbk.,ihsg,TBLA.JK,cyclical
+TBMS.JK,Tembaga Mulia Semanan Tbk.,ihsg,TBMS.JK,cyclical
+TCID.JK,Mandom Indonesia Tbk.,ihsg,TCID.JK,cyclical
+TCPI.JK,Transcoal Pacific Tbk.,ihsg,TCPI.JK,energy_exporter
+TDPM.JK,Tianrong Chemicals Industry Tb,ihsg,TDPM.JK,cyclical
+TEBE.JK,Dana Brata Luhur Tbk.,ihsg,TEBE.JK,cyclical
+TECH.JK,Indosterling Technomedia Tbk.,ihsg,TECH.JK,cyclical
+TELE.JK,Omni Inovasi Indonesia Tbk.,ihsg,TELE.JK,cyclical
+TFAS.JK,Telefast Indonesia Tbk.,ihsg,TFAS.JK,cyclical
+TFCO.JK,Tifico Fiber Indonesia Tbk.,ihsg,TFCO.JK,cyclical
+TGKA.JK,Tigaraksa Satria Tbk.,ihsg,TGKA.JK,cyclical
+TGRA.JK,Terregra Asia Energy Tbk.,ihsg,TGRA.JK,energy_exporter
+TGUK.JK,Platinum Wahab Nusantara Tbk.,ihsg,TGUK.JK,cyclical
+TIFA.JK,KDB Tifa Finance Tbk.,ihsg,TIFA.JK,cyclical
+TINS.JK,Timah Tbk.,ihsg,TINS.JK,metals_energy
+TIRA.JK,Tira Austenite Tbk,ihsg,TIRA.JK,cyclical
+TIRT.JK,Tirta Mahakam Resources Tbk,ihsg,TIRT.JK,cyclical
+TKIM.JK,Pabrik Kertas Tjiwi Kimia Tbk.,ihsg,TKIM.JK,banks
+TLDN.JK,Teladan Prima Agro Tbk.,ihsg,TLDN.JK,cyclical
+TLKM.JK,Telkom Indonesia (Persero) Tbk,ihsg,TLKM.JK,telco_defensive
+TMAS.JK,Temas Tbk.,ihsg,TMAS.JK,metals_energy
+TMPO.JK,Tempo Intimedia Tbk.,ihsg,TMPO.JK,cyclical
+TNCA.JK,Trimuda Nuansa Citra Tbk.,ihsg,TNCA.JK,cyclical
+TOBA.JK,TBS Energi Utama Tbk.,ihsg,TOBA.JK,cyclical
+TOOL.JK,Rohartindo Nusantara Luas Tbk.,ihsg,TOOL.JK,cyclical
+TOPS.JK,Totalindo Eka Persada Tbk.,ihsg,TOPS.JK,cyclical
+TOSK.JK,Topindo Solusi Komunika Tbk.,ihsg,TOSK.JK,cyclical
+TOTL.JK,Total Bangun Persada Tbk.,ihsg,TOTL.JK,cyclical
+TOTO.JK,Surya Toto Indonesia Tbk.,ihsg,TOTO.JK,cyclical
+TOWR.JK,Sarana Menara Nusantara Tbk.,ihsg,TOWR.JK,cyclical
+TOYS.JK,Sunindo Adipersada Tbk.,ihsg,TOYS.JK,cyclical
+TPIA.JK,Chandra Asri Pacific Tbk.,ihsg,TPIA.JK,cyclical
+TPMA.JK,Trans Power Marine Tbk.,ihsg,TPMA.JK,cyclical
+TRAM.JK,Trada Alam Minera Tbk.,ihsg,TRAM.JK,cyclical
+TRGU.JK,Cerestar Indonesia Tbk.,ihsg,TRGU.JK,cyclical
+TRIL.JK,Triwira Insanlestari Tbk.,ihsg,TRIL.JK,cyclical
+TRIM.JK,Trimegah Sekuritas Indonesia T,ihsg,TRIM.JK,cyclical
+TRIN.JK,Perintis Triniti Properti Tbk.,ihsg,TRIN.JK,cyclical
+TRIO.JK,Trikomsel Oke Tbk.,ihsg,TRIO.JK,cyclical
+TRIS.JK,Trisula International Tbk.,ihsg,TRIS.JK,cyclical
+TRJA.JK,Transkon Jaya Tbk.,ihsg,TRJA.JK,cyclical
+TRON.JK,Teknologi Karya Digital Nusa T,ihsg,TRON.JK,cyclical
+TRST.JK,Trias Sentosa Tbk.,ihsg,TRST.JK,cyclical
+TRUE.JK,Triniti Dinamik Tbk.,ihsg,TRUE.JK,cyclical
+TRUK.JK,Guna Timur Raya Tbk.,ihsg,TRUK.JK,cyclical
+TRUS.JK,Trust Finance Indonesia Tbk,ihsg,TRUS.JK,cyclical
+TSPC.JK,Tempo Scan Pacific Tbk.,ihsg,TSPC.JK,cyclical
+TUGU.JK,Asuransi Tugu Pratama Indonesi,ihsg,TUGU.JK,cyclical
+TYRE.JK,King Tire Indonesia Tbk.,ihsg,TYRE.JK,cyclical
+UANG.JK,Pakuan Tbk.,ihsg,UANG.JK,cyclical
+UCID.JK,Uni-Charm Indonesia Tbk.,ihsg,UCID.JK,cyclical
+UDNG.JK,Agro Bahari Nusantara Tbk.,ihsg,UDNG.JK,cyclical
+UFOE.JK,Damai Sejahtera Abadi Tbk.,ihsg,UFOE.JK,cyclical
+ULTJ.JK,Ultrajaya Milk Industry & Trad,ihsg,ULTJ.JK,cyclical
+UNIC.JK,Unggul Indah Cahaya Tbk.,ihsg,UNIC.JK,cyclical
+UNIQ.JK,Ulima Nitra Tbk.,ihsg,UNIQ.JK,cyclical
+UNIT.JK,Nusantara Inti Corpora Tbk,ihsg,UNIT.JK,cyclical
+UNSP.JK,Bakrie Sumatera Plantations Tb,ihsg,UNSP.JK,cyclical
+UNTD.JK,Terang Dunia Internusa Tbk.,ihsg,UNTD.JK,cyclical
+UNTR.JK,United Tractors Tbk.,ihsg,UNTR.JK,cyclical
+UNVR.JK,Unilever Indonesia Tbk.,ihsg,UNVR.JK,cyclical
+URBN.JK,Urban Jakarta Propertindo Tbk.,ihsg,URBN.JK,cyclical
+UVCR.JK,Trimegah Karya Pratama Tbk.,ihsg,UVCR.JK,cyclical
+VAST.JK,Vastland Indonesia Tbk.,ihsg,VAST.JK,cyclical
+VERN.JK,Verona Indah Pictures Tbk.,ihsg,VERN.JK,cyclical
+VICI.JK,Victoria Care Indonesia Tbk.,ihsg,VICI.JK,cyclical
+VICO.JK,Victoria Investama Tbk.,ihsg,VICO.JK,cyclical
+VINS.JK,Victoria Insurance Tbk.,ihsg,VINS.JK,cyclical
+VISI.JK,Satu Visi Putra Tbk.,ihsg,VISI.JK,cyclical
+VIVA.JK,Visi Media Asia Tbk.,ihsg,VIVA.JK,cyclical
+VKTR.JK,VKTR Teknologi Mobilitas Tbk.,ihsg,VKTR.JK,cyclical
+VOKS.JK,Voksel Electric Tbk.,ihsg,VOKS.JK,cyclical
+VRNA.JK,Mizuho Leasing Indonesia Tbk.,ihsg,VRNA.JK,cyclical
+VTNY.JK,Venteny Fortuna International,ihsg,VTNY.JK,cyclical
+WAPO.JK,Wahana Pronatural Tbk.,ihsg,WAPO.JK,cyclical
+WEGE.JK,Wijaya Karya Bangunan Gedung T,ihsg,WEGE.JK,cyclical
+WEHA.JK,WEHA Transportasi Indonesia Tb,ihsg,WEHA.JK,cyclical
+WGSH.JK,Wira Global Solusi Tbk.,ihsg,WGSH.JK,cyclical
+WICO.JK,Wicaksana Overseas Internation,ihsg,WICO.JK,cyclical
+WIDI.JK,Widiant Jaya Krenindo Tbk.,ihsg,WIDI.JK,cyclical
+WIFI.JK,Solusi Sinergi Digital Tbk.,ihsg,WIFI.JK,cyclical
+WIIM.JK,Wismilak Inti Makmur Tbk.,ihsg,WIIM.JK,cyclical
+WIKA.JK,Wijaya Karya (Persero) Tbk.,ihsg,WIKA.JK,cyclical
+WINE.JK,Hatten Bali Tbk.,ihsg,WINE.JK,cyclical
+WINR.JK,Winner Nusantara Jaya Tbk.,ihsg,WINR.JK,cyclical
+WINS.JK,Wintermar Offshore Marine Tbk.,ihsg,WINS.JK,cyclical
+WIRG.JK,WIR ASIA Tbk.,ihsg,WIRG.JK,cyclical
+WMPP.JK,Widodo Makmur Perkasa Tbk.,ihsg,WMPP.JK,cyclical
+WMUU.JK,Widodo Makmur Unggas Tbk.,ihsg,WMUU.JK,energy_exporter
+WOMF.JK,Wahana Ottomitra Multiartha Tb,ihsg,WOMF.JK,cyclical
+WOOD.JK,Integra Indocabinet Tbk.,ihsg,WOOD.JK,cyclical
+WOWS.JK,Ginting Jaya Energi Tbk.,ihsg,WOWS.JK,cyclical
+WSBP.JK,Waskita Beton Precast Tbk.,ihsg,WSBP.JK,cyclical
+WSKT.JK,Waskita Karya (Persero) Tbk.,ihsg,WSKT.JK,cyclical
+WTON.JK,Wijaya Karya Beton Tbk.,ihsg,WTON.JK,cyclical
+YELO.JK,Yelooo Integra Datanet Tbk.,ihsg,YELO.JK,cyclical
+YOII.JK,Asuransi Digital Bersama Tbk.,ihsg,YOII.JK,cyclical
+YPAS.JK,Yanaprima Hastapersada Tbk,ihsg,YPAS.JK,cyclical
+YULE.JK,Yulie Sekuritas Indonesia Tbk.,ihsg,YULE.JK,cyclical
+ZATA.JK,Bersama Zatta Jaya Tbk.,ihsg,ZATA.JK,cyclical
+ZBRA.JK,Dosni Roha Indonesia Tbk.,ihsg,ZBRA.JK,cyclical
+ZINC.JK,Kapuas Prima Coal Tbk.,ihsg,ZINC.JK,energy_exporter
+ZONE.JK,Mega Perintis Tbk.,ihsg,ZONE.JK,cyclical
+ZYRX.JK,Zyrexindo Mandiri Buana Tbk.,ihsg,ZYRX.JK,banks

@@ -8,6 +8,6 @@ MARKETS = ['us', 'ihsg', 'forex', 'commodities', 'crypto']
 
 if __name__ == '__main__':
     for market in MARKETS:
-        df = load_universe(market)
+        df = load_universe(market, force_bundle=True)
         save_universe(market, df)
         print(f'{market}: {len(df)}')
