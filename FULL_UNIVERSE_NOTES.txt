@@ -1,1 +1,9 @@
-US and IHSG full universes are bundled in this pack. Crypto full universe is refreshed at runtime via Binance exchangeInfo endpoints and may require running build scripts on a host that can access Binance public APIs.
+Bundled universes in this pack:
+- US: 12,083 symbols from Nasdaq current-trading-day symbol directory (broad max-coverage mode)
+- IHSG: 951 symbols
+- Forex: 16 pairs
+- Commodities: 3 instruments (XAUUSD / XAGUSD / USOIL display)
+- Crypto: bundled file may still be small until live refresh succeeds; workflow/local build should refresh from Binance exchangeInfo.
+
+This starter pack does NOT pretend its starter snapshots are current.
+It starts honest (0 eligible rows) until a live build refreshes universes/history/snapshots.

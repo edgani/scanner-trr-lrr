@@ -167,6 +167,16 @@ def main() -> None:
     m5.metric("Coverage", f"{coverage}%")
     m6.metric("Snapshot as-of", as_of[:10] if as_of != "-" else "-")
 
+    # Snapshot freshness warning
+    if as_of != "-":
+        try:
+            snap_ts = pd.to_datetime(as_of, utc=True)
+            age_days = (pd.Timestamp.utcnow(tz="UTC") - snap_ts).total_seconds() / 86400.0
+            if age_days > 2:
+                st.warning(f"Snapshot ini stale ({age_days:.1f} hari). Jalankan build/refresh terbaru dulu sebelum dipakai eksekusi.")
+        except Exception:
+            pass
+
     st.markdown(
         f"**Macro backdrop**: {_safe_str(macro_overlay.get('summary') or macro_overlay.get('market_bias'))}  \
 "

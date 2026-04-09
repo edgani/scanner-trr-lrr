@@ -1,35 +1,14 @@
 {
   "market": "commodities",
-  "as_of": "2026-04-09T04:24:20.679832+00:00",
   "universe": 3,
-  "eligible": 0,
-  "coverage": 0.0,
-  "macro_overlay": {
-    "backend": "macro_snapshot",
-    "regime": "Low-Conviction Monthly Q3 inside Structural Q4",
-    "execution_mode": "Petrodollar / hard-asset tactical long",
-    "market_bias": "Two-Way",
-    "crash_state": "normal",
-    "summary": "Commodity ditarik dua arah: physical balance dan macro money pressure dari USD/rates.",
-    "next_route": "If current regime persists: stay with WTI, XAUUSD, IHSG",
-    "invalidator_route": "If structural flips: next backbone likely EEM, IHSG, WTI",
-    "focus": "Belum dapat next macro catalyst resmi.",
-    "next_macro_countdown": "-",
-    "next_macro_focus": "Belum dapat next macro catalyst resmi.",
-    "best_beneficiary": ""
-  },
   "history_status": {
-    "present": 3,
-    "missing": 0,
-    "requested": 3
-  },
-  "refresh_report": {
     "requested": 3,
-    "updated": 0,
-    "cached_only": 0,
-    "failed": []
+    "present": 0
   },
-  "missing_due_to_history": [],
+  "eligible": 0,
+  "rows": 0,
+  "coverage": 0,
+  "as_of": "2026-04-09T08:10:32Z",
   "required_columns": [
     "Ticker",
     "Bias",
@@ -40,6 +19,11 @@
     "Macro Aligned?",
     "EV+ / R:R"
   ],
-  "rows": 0,
-  "note": "Starter snapshot bundled for first deploy. Run build_everything_full.py on a machine with internet access to rebuild full-universe histories and rankings."
+  "macro_overlay": {
+    "summary": "Belum ada snapshot valid. Jalankan full build/refresh terbaru.",
+    "market_bias": "unknown",
+    "next_macro_countdown": "-",
+    "next_macro_focus": "run build first",
+    "execution_mode": "build_required"
+  }
 }

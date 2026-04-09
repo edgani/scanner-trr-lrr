@@ -1,36 +1,14 @@
 {
   "market": "ihsg",
-  "as_of": "2026-04-09T04:24:20.212454+00:00",
   "universe": 951,
-  "eligible": 3,
-  "rows": 3,
-  "coverage": 0.32,
-  "macro_overlay": {
-    "backend": "macro_snapshot",
-    "regime": "Low-Conviction Monthly Q3 inside Structural Q4",
-    "execution_mode": "Defensive / selective only",
-    "market_bias": "Two-Way Diagnostic",
-    "crash_state": "normal",
-    "summary": "IHSG sensitif ke USD/IDR, SBN yield, foreign flow, breadth, heavyweights, dan EM rotation.",
-    "next_route": "If current regime persists: stay with WTI, XAUUSD, IHSG",
-    "invalidator_route": "If structural flips: next backbone likely EEM, IHSG, WTI",
-    "focus": "Belum dapat next macro catalyst resmi.",
-    "next_macro_countdown": "-",
-    "next_macro_focus": "Belum dapat next macro catalyst resmi.",
-    "best_beneficiary": "BBCA, BBRI"
-  },
   "history_status": {
-    "present": 65,
-    "missing": 0,
-    "requested": 65
+    "requested": 951,
+    "present": 0
   },
-  "refresh_report": {
-    "requested": 65,
-    "updated": 0,
-    "cached_only": 0,
-    "failed": []
-  },
-  "missing_due_to_history": [],
+  "eligible": 0,
+  "rows": 0,
+  "coverage": 0,
+  "as_of": "2026-04-09T08:10:32Z",
   "required_columns": [
     "Ticker",
     "Bias",
@@ -41,5 +19,11 @@
     "Macro Aligned?",
     "EV+ / R:R"
   ],
-  "note": "Starter snapshot bundled for first deploy. Run build_everything_full.py on a machine with internet access to rebuild full-universe histories and rankings."
+  "macro_overlay": {
+    "summary": "Belum ada snapshot valid. Jalankan full build/refresh terbaru.",
+    "market_bias": "unknown",
+    "next_macro_countdown": "-",
+    "next_macro_focus": "run build first",
+    "execution_mode": "build_required"
+  }
 }

@@ -1,23 +1,12 @@
-# Market Intel Final Clean
+# Market Intel Repo-Ready (honest daily-refresh build)
 
-This pack contains:
-- `macroregime_pro/` — macro backbone, no-cut local history store, snapshot-first runtime
-- `scanner_pro/` — scanner-first app, horizon-based tabs, hidden macro overlay, snapshot-only runtime
+This pack is designed to be pushed to GitHub as-is, then refreshed daily via GitHub Actions or locally with `build_everything_full.py`.
 
-## Quick start
-```bash
-python verify_all.py
-python build_final_snapshots.py
-```
+## Deploy
+- Scanner main file: `scanner_pro/app.py`
+- Macro main file: `macroregime_pro/app.py`
 
-Run apps:
-```bash
-cd macroregime_pro && streamlit run app.py
-cd scanner_pro && streamlit run app.py
-```
-
-## Important
-This code is built to stay light **at runtime**:
-- apps read snapshots only
-- full-universe refresh and no-cut history update happen in scripts
-- nothing heavy runs on page load
+## First run
+- Push to GitHub
+- Run the `daily-refresh` action once
+- Or run locally: `install_and_build.bat`

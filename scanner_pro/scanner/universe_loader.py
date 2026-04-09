@@ -83,8 +83,9 @@ def refresh_us_universe(timeout: int = 25) -> list[str]:
     resp.raise_for_status()
     df = pd.read_csv(io.StringIO(resp.text), sep='|')
     df = df[df['Symbol'].notna()].copy()
-    mask = (df['Test Issue'] == 'N') & (df['ETF'] == 'N')
-    mask &= ~df['Security Name'].astype(str).str.contains(_EQUITY_EXCLUDE_RE, na=False)
+    # Max-coverage mode: include all current-trading-day test-issue=N symbols,
+    # then let downstream history/tradability filters decide what is actually eligible.
+    mask = (df['Test Issue'] == 'N')
     syms = df.loc[mask, 'Symbol'].astype(str).str.strip().str.replace('.', '-', regex=False)
     syms = syms[syms.str.match(r'^[A-Z]{1,5}(?:-[A-Z])?$')]
     return _unique(syms.tolist())
