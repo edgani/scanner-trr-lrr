@@ -4,7 +4,7 @@
   "universe": 40,
   "eligible": 2,
   "rows": 2,
-  "coverage": 100.0,
+  "coverage": 5.0,
   "macro_overlay": {
     "backend": "macro_snapshot",
     "regime": "Low-Conviction Monthly Q3 inside Structural Q4",
@@ -41,5 +41,5 @@
     "Macro Aligned?",
     "EV+ / R:R"
   ],
-  "note": "App reads snapshots only. Heavy work is done by update/build scripts."
+  "note": "Starter snapshot bundled for first deploy. Run build_everything_full.py on a machine with internet access to rebuild full-universe histories and rankings."
 }

@@ -1,10 +1,10 @@
 {
   "market": "ihsg",
   "as_of": "2026-04-09T04:24:20.212454+00:00",
-  "universe": 65,
+  "universe": 951,
   "eligible": 3,
   "rows": 3,
-  "coverage": 100.0,
+  "coverage": 0.32,
   "macro_overlay": {
     "backend": "macro_snapshot",
     "regime": "Low-Conviction Monthly Q3 inside Structural Q4",
@@ -41,5 +41,5 @@
     "Macro Aligned?",
     "EV+ / R:R"
   ],
-  "note": "App reads snapshots only. Heavy work is done by update/build scripts."
+  "note": "Starter snapshot bundled for first deploy. Run build_everything_full.py on a machine with internet access to rebuild full-universe histories and rankings."
 }

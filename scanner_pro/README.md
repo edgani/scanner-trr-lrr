@@ -38,3 +38,10 @@ streamlit run app.py
 - Historical data is stored locally per symbol and merged, so history is not intentionally cut.
 - Universe completeness depends on what the upstream sources return and what Yahoo Finance actually supports at refresh time.
 - Build scripts write manifests with failures so nothing is silently dropped.
+
+
+## Full-universe notes
+- US universe is bundled from Nasdaq Trader `nasdaqtraded.txt` and filtered to non-ETF equity-style symbols.
+- IHSG universe is bundled from the public `Dataset-Saham-IDX` ticker list (~952 names) with `.JK` suffixes.
+- Crypto universe refresh uses Binance `exchangeInfo` endpoints and falls back to the last saved crypto universe if the host is geo-blocked.
+- Runtime app stays light because Streamlit reads snapshots only; full-universe ingestion happens in the refresh/build scripts.

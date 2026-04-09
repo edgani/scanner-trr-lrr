@@ -3,7 +3,7 @@
   "as_of": "2026-04-09T04:24:20.679832+00:00",
   "universe": 3,
   "eligible": 0,
-  "coverage": 100.0,
+  "coverage": 0.0,
   "macro_overlay": {
     "backend": "macro_snapshot",
     "regime": "Low-Conviction Monthly Q3 inside Structural Q4",
@@ -39,5 +39,7 @@
     "Holding Window",
     "Macro Aligned?",
     "EV+ / R:R"
-  ]
+  ],
+  "rows": 0,
+  "note": "Starter snapshot bundled for first deploy. Run build_everything_full.py on a machine with internet access to rebuild full-universe histories and rankings."
 }

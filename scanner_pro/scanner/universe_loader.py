@@ -1,29 +1,54 @@
 from __future__ import annotations
 from pathlib import Path
+import io
 import re
 import pandas as pd
 import requests
 from config.settings import UNIVERSES_DIR, FOREX_MAJOR_PAIRS, COMMODITY_SYMBOLS
 from config.universe_seeds import US_SEED, IHSG_SEED, CRYPTO_SEED
 
+NASDAQ_URL = 'https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqtraded.txt'
+IHSG_GITHUB_URL = 'https://github.com/wildangunawan/Dataset-Saham-IDX/raw/refs/heads/master/List%20Emiten/all.csv'
 IDX_STOCK_LIST_URLS = [
     'https://www.idx.co.id/en/market-data/stocks-data/stock-list',
     'https://www.idx.co.id/id/data-pasar/data-saham/daftar-saham/',
 ]
-NASDAQ_URL = 'https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqtraded.txt'
-BINANCE_URL = 'https://api.binance.com/api/v3/exchangeInfo'
+BINANCE_ENDPOINTS = [
+    'https://api.binance.com/api/v3/exchangeInfo',
+    'https://api1.binance.com/api/v3/exchangeInfo',
+    'https://api2.binance.com/api/v3/exchangeInfo',
+    'https://api3.binance.com/api/v3/exchangeInfo',
+    'https://api4.binance.com/api/v3/exchangeInfo',
+]
+
+_EQUITY_EXCLUDE_RE = re.compile(
+    r'Warrant| Unit| Rights| Right | Preferred| Preference| Notes| Note | ETN| Fund| ETF| Trust| Depositary| ADR| ADS| Beneficial Interest| Contingent Value Right| CVR| Interest',
+    re.IGNORECASE,
+)
+
 
 def universe_path(market: str) -> Path:
     UNIVERSES_DIR.mkdir(parents=True, exist_ok=True)
     return UNIVERSES_DIR / f'{market}_universe.csv'
 
+
 def _unique(symbols: list[str]) -> list[str]:
-    return list(dict.fromkeys([str(x).strip() for x in symbols if str(x).strip()]))
+    out: list[str] = []
+    seen: set[str] = set()
+    for raw in symbols:
+        sym = str(raw).strip()
+        if not sym or sym in seen:
+            continue
+        seen.add(sym)
+        out.append(sym)
+    return out
+
 
 def save_universe(market: str, symbols: list[str]) -> Path:
     path = universe_path(market)
     pd.DataFrame({'symbol': _unique(symbols)}).to_csv(path, index=False)
     return path
+
 
 def load_universe(market: str) -> list[str]:
     path = universe_path(market)
@@ -44,49 +69,85 @@ def load_universe(market: str) -> list[str]:
         return COMMODITY_SYMBOLS
     return []
 
+
+def _session(timeout: int) -> requests.Session:
+    s = requests.Session()
+    s.headers.update({'User-Agent': 'Mozilla/5.0 MarketIntel/1.0'})
+    s.request_timeout = timeout
+    return s
+
+
 def refresh_us_universe(timeout: int = 25) -> list[str]:
-    text = requests.get(NASDAQ_URL, timeout=timeout).text
-    lines = [x for x in text.splitlines() if '|' in x]
-    symbols: list[str] = []
-    for line in lines[1:]:
-        parts = line.split('|')
-        if not parts or parts[0] == 'File Creation Time':
-            continue
-        sym = parts[1] if parts[0] == 'Y' else parts[0]
-        sym = sym.strip()
-        if sym and sym.isascii() and '$' not in sym and '.' not in sym and '^' not in sym:
-            symbols.append(sym)
-    return _unique(symbols)
+    s = _session(timeout)
+    resp = s.get(NASDAQ_URL, timeout=timeout)
+    resp.raise_for_status()
+    df = pd.read_csv(io.StringIO(resp.text), sep='|')
+    df = df[df['Symbol'].notna()].copy()
+    mask = (df['Test Issue'] == 'N') & (df['ETF'] == 'N')
+    mask &= ~df['Security Name'].astype(str).str.contains(_EQUITY_EXCLUDE_RE, na=False)
+    syms = df.loc[mask, 'Symbol'].astype(str).str.strip().str.replace('.', '-', regex=False)
+    syms = syms[syms.str.match(r'^[A-Z]{1,5}(?:-[A-Z])?$')]
+    return _unique(syms.tolist())
+
 
 def refresh_ihsg_universe(timeout: int = 25) -> list[str]:
+    s = _session(timeout)
+    # Preferred source: maintained CSV with ~952 tickers.
+    try:
+        resp = s.get(IHSG_GITHUB_URL, timeout=timeout)
+        resp.raise_for_status()
+        df = pd.read_csv(io.StringIO(resp.text))
+        codes = df['code'].astype(str).str.upper().str.strip()
+        syms = [f'{c}.JK' for c in codes if re.fullmatch(r'[A-Z]{4}', c)]
+        syms = _unique(syms)
+        if len(syms) >= 900:
+            return syms
+    except Exception:
+        pass
+    # Fallback: scrape visible ticker codes from IDX pages.
     symbols: list[str] = []
     for url in IDX_STOCK_LIST_URLS:
         try:
-            resp = requests.get(url, timeout=timeout)
+            resp = s.get(url, timeout=timeout)
+            if not resp.ok:
+                continue
+            html = resp.text
+            codes = re.findall(r'([A-Z]{4})', html)
+            filtered = [f'{code}.JK' for code in codes if code not in {'JSON', 'HTML', 'IDX'}]
+            symbols.extend(filtered)
+            if len(filtered) > 500:
+                break
         except Exception:
             continue
-        if not resp.ok:
-            continue
-        html = resp.text
-        codes = re.findall(r'\b([A-Z]{4})\b', html)
-        filtered = [f'{code}.JK' for code in codes if code not in {'JSON', 'HTML', 'IDX'}]
-        symbols.extend(filtered)
-        if len(filtered) > 500:
-            break
     return _unique(symbols)
 
+
 def refresh_crypto_universe(timeout: int = 25) -> list[str]:
-    data = requests.get(BINANCE_URL, timeout=timeout).json()
-    symbols: list[str] = []
-    for row in data.get('symbols', []):
-        if row.get('status') != 'TRADING':
+    s = _session(timeout)
+    for url in BINANCE_ENDPOINTS:
+        try:
+            resp = s.get(url, timeout=timeout)
+            if resp.status_code == 451:
+                continue
+            resp.raise_for_status()
+            data = resp.json()
+            symbols: list[str] = []
+            for row in data.get('symbols', []):
+                if row.get('status') != 'TRADING':
+                    continue
+                if row.get('quoteAsset') != 'USDT':
+                    continue
+                base = str(row.get('baseAsset') or '').strip().upper()
+                if base and re.fullmatch(r'[A-Z0-9]{2,20}', base):
+                    symbols.append(f'{base}-USD')
+            out = _unique(symbols)
+            if out:
+                return out
+        except Exception:
             continue
-        if row.get('quoteAsset') != 'USDT':
-            continue
-        base = str(row.get('baseAsset') or '').strip()
-        if base:
-            symbols.append(f'{base}-USD')
-    return _unique(symbols)
+    # Graceful fallback keeps app usable even when Binance blocks the host.
+    return load_universe('crypto') or CRYPTO_SEED
+
 
 def refresh_market_universe(market: str) -> list[str]:
     if market == 'us':
