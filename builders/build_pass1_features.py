@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import json
 from pathlib import Path
 
@@ -10,6 +11,7 @@ from scanner_vfinal.scanner.registry import load_universe
 
 ROOT = Path(__file__).resolve().parents[1]
 SCAN_DIR = ROOT / 'data' / 'scans'
+ALL_MARKETS = ['us', 'ihsg', 'forex', 'commodities', 'crypto']
 
 
 def tradable_hint(bucket: str) -> bool:
@@ -17,9 +19,13 @@ def tradable_hint(bucket: str) -> bool:
 
 
 if __name__ == '__main__':
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--market', action='append', choices=ALL_MARKETS)
+    args = ap.parse_args()
+
     brain = load_brain()
     SCAN_DIR.mkdir(parents=True, exist_ok=True)
-    for market in ['us', 'ihsg', 'forex', 'commodities', 'crypto']:
+    for market in args.market or ALL_MARKETS:
         uni = load_universe(market)
         policy = ((brain.get('market_brains', {}) or {}).get(market) or {}).copy()
         results = []

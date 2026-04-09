@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
@@ -8,6 +9,16 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 HISTORY_DIR = ROOT / 'data' / 'history'
+
+
+@dataclass
+class ExistingHistoryState:
+    exists: bool
+    ok: bool
+    as_of: str | None
+    age_days: int | None
+    reason: str
+    rows: int
 
 
 def safe_name(symbol: str) -> str:
@@ -69,3 +80,16 @@ def last_bar(df: pd.DataFrame) -> dict[str, Any]:
         'close': float(row.get('Close')) if pd.notna(row.get('Close')) else None,
         'volume': float(row.get('Volume')) if pd.notna(row.get('Volume')) else None,
     }
+
+
+def existing_history_state(market: str, symbol: str) -> ExistingHistoryState:
+    from .sanity import evaluate_history_sanity
+
+    p = history_path(market, symbol)
+    if not p.exists():
+        return ExistingHistoryState(False, False, None, None, 'missing_history', 0)
+    df = load_history(market, symbol)
+    if df is None or df.empty:
+        return ExistingHistoryState(True, False, None, None, 'empty_history', 0)
+    sanity = evaluate_history_sanity(market, df)
+    return ExistingHistoryState(True, sanity.ok, sanity.as_of, sanity.age_days, sanity.reason, int(len(df)))

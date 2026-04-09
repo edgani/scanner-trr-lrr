@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import json
 from datetime import datetime, timezone
 from pathlib import Path
@@ -17,6 +18,7 @@ from scanner_vfinal.scanner.sanity import evaluate_history_sanity
 
 ROOT = Path(__file__).resolve().parents[1]
 SCAN_DIR = ROOT / 'data' / 'scans'
+ALL_MARKETS = ['us', 'ihsg', 'forex', 'commodities', 'crypto']
 
 
 def build_market(market: str, brain: dict) -> dict:
@@ -53,11 +55,25 @@ def build_market(market: str, brain: dict) -> dict:
         out.to_csv(SCAN_DIR / f'{market}_scanner_snapshot.csv', index=False)
     else:
         pd.DataFrame(columns=['market','symbol','display_symbol','bucket','horizon_bucket','long_or_short','bias','entry_zone','invalidation','target','holding_window','macro_aligned','rr_score','ev_score','route','macro_explanation','why_now','why_not_yet','as_of']).to_csv(SCAN_DIR / f'{market}_scanner_snapshot.csv', index=False)
+
+    if history_loaded <= 0:
+        snapshot_status = 'blocked_no_history'
+        status_reason = 'No built history yet.'
+    elif eligible_count <= 0 and sanity_rejected >= history_loaded:
+        snapshot_status = 'blocked_all_sanity_rejected'
+        status_reason = 'All built history rejected by sanity check.'
+    elif eligible_count <= 0:
+        snapshot_status = 'ready_empty'
+        status_reason = 'History exists, but current pass1/pass2 filters produced no candidates.'
+    else:
+        snapshot_status = 'ready'
+        status_reason = ''
+
     manifest = {
         'market': market,
         'generated_at': datetime.now(timezone.utc).isoformat(),
-        'snapshot_status': 'ready' if history_loaded > 0 else 'empty',
-        'status_reason': '' if history_loaded > 0 else 'No built history yet.',
+        'snapshot_status': snapshot_status,
+        'status_reason': status_reason,
         'universe_count': int(len(uni)),
         'history_loaded': int(history_loaded),
         'eligible_count': int(eligible_count),
@@ -83,7 +99,10 @@ def build_market(market: str, brain: dict) -> dict:
 
 
 if __name__ == '__main__':
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--market', action='append', choices=ALL_MARKETS)
+    args = ap.parse_args()
     brain = load_brain()
     SCAN_DIR.mkdir(parents=True, exist_ok=True)
-    for market in ['us', 'ihsg', 'forex', 'commodities', 'crypto']:
+    for market in args.market or ALL_MARKETS:
         print(json.dumps(build_market(market, brain), indent=2))
