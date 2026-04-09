@@ -1,24 +1,10 @@
-START HERE
+FINAL WORKFLOW
 
-1) Open terminal in this folder
-2) Install deps:
-   pip install -r requirements-all.txt
+1) Export scanner brain from MacroRegime v33 cache:
+   python -m export_scanner_brain
+2) Refresh universes + histories + snapshots locally/VPS:
+   python build_daily_local.py
+3) Run scanner:
+   streamlit run scanner_vfinal/app.py
 
-3) Optional verify:
-   python verify_all.py
-
-4) Build latest macro + scanner snapshots:
-   python build_everything_full.py
-
-5) Run MacroRegime:
-   cd macroregime_pro
-   streamlit run app.py
-
-6) Run Scanner:
-   cd scanner_pro
-   streamlit run app.py
-
-Notes:
-- Repo/build is snapshot-first, so app stays light on open.
-- Full universe is refreshed during build step, not at page load.
-- Historical path uses max history where provider supports it.
+This pack is architected for local/VPS building and a snapshot-only Streamlit app.

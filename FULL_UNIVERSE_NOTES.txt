@@ -1,1 +1,0 @@
-US and IHSG full universes are bundled in this pack. Crypto full universe is refreshed at runtime via Binance exchangeInfo endpoints and may require running build scripts on a host that can access Binance public APIs.

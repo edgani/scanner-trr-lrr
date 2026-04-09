@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.cache/history/
+.cache/latest_snapshot.json
+.cache/latest_snapshot_manifest.json
+*.log
+.DS_Store
+Thumbs.db

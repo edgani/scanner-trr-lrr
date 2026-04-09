@@ -1,0 +1,39 @@
+{
+  "version": "0.31.0-full-manifests-bundled",
+  "manifests": {
+    "us": {
+      "count": 12468,
+      "source": "NasdaqTrader symbol directory (official)"
+    },
+    "ihsg": {
+      "count": 951,
+      "source": "Dataset-Saham-IDX all.csv (IDX-derived public dataset mirror)",
+      "dataset_last_update": "2024-07-19"
+    },
+    "fx": {
+      "count": 16,
+      "source": "Built-in curated FX manifest"
+    },
+    "commodities": {
+      "count": 24,
+      "source": "Built-in curated commodities manifest"
+    },
+    "crypto": {
+      "count": 7650,
+      "source": "CoinGecko-derived public mirror list_of_coins.json"
+    }
+  },
+  "runtime_compact_default": {
+    "us": 250,
+    "ihsg": 150,
+    "fx": 16,
+    "commodities": 24,
+    "crypto": 200
+  },
+  "notes": [
+    "UI files intentionally unchanged.",
+    "App defaults to compact_mode=True so first run stays light.",
+    "Bundled manifests are preferred and loaded automatically.",
+    "Full live hydration still requires online refresh/bootstrap on the user machine."
+  ]
+}

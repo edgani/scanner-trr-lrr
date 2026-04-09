@@ -1,0 +1,492 @@
+{
+  "generated_at": "2026-04-09T09:42:51.736585",
+  "current_quad": "Q4",
+  "next_quad": "Q3",
+  "monthly_quad": "Q3",
+  "monthly_next_quad": "Q2",
+  "execution_mode": {
+    "score": 0.3431164433032801,
+    "mode": "defensive",
+    "execute_mode": "Defensive / preserve capital",
+    "size_multiplier": 0.25,
+    "score_components": {
+      "weather": 0.4435833333333333,
+      "health": 0.34,
+      "vix_bucket": 0.5,
+      "structural_quad": 0.25,
+      "monthly_quad": 0.48,
+      "blended_quad": 0.3305,
+      "confidence": 0.10794401636613443,
+      "cross_asset": 0.494375,
+      "divergence_adjustment": -0.006899999999999999,
+      "crowding_penalty": 0.5690625,
+      "shock_penalty": 0.0,
+      "crash_penalty": 0.06290937500000005
+    },
+    "flags": {
+      "can_chase": false,
+      "buy_dip_only": false,
+      "breakout_only": false,
+      "reduce_on_strength": false,
+      "short_bounces_only": true,
+      "no_trade": false
+    },
+    "notes": [
+      "Structural Q4 / Monthly Q3 (divergent) + weather mixed + VIX bucket Unknown.",
+      "Market health: Fragile; shock state: normal; cross-asset confirm 0.49.",
+      "Execution bias now depends on whether signal confirms the monthly move or hands control back to the structural regime."
+    ]
+  },
+  "weather": {
+    "weather_bias": "mixed",
+    "trade_state": "balanced",
+    "trend_state": "mixed",
+    "tail_state": "neutral",
+    "score": 0.4435833333333333,
+    "cross_asset_confirm": 0.494375,
+    "trade_score": 0.43416666666666665,
+    "trend_score": 0.42500000000000004,
+    "tail_score": 0.47624999999999995
+  },
+  "shock": {
+    "state": "normal",
+    "override_strength": 0.51125,
+    "anchor_relaxation": 0.3,
+    "triggers": [
+      "petrodollar_shock",
+      "em_importer_pain",
+      "petro_exporter_benefit",
+      "shipping_chokepoint",
+      "china_false_dawn"
+    ]
+  },
+  "health": {
+    "score": 0.15208333333333335,
+    "verdict": "Fragile",
+    "threshold": 0.44,
+    "sector_support": 0,
+    "sector_support_3m": 0,
+    "eqw_confirm": true,
+    "smallcap_confirm": true,
+    "contributor_concentration": 0.5,
+    "stress_map": "Masih lokal",
+    "notes": [
+      "Sedikit sektor yang menopang index"
+    ],
+    "what_confirms": "Equal-weight, small caps, dan sektor pendukung ikut membaik bersama.",
+    "what_invalidates": "Index naik tapi semakin ditopang sedikit nama / sedikit sektor."
+  },
+  "risk_summary": {
+    "risk_off_score": 0.544153125,
+    "risk_off_state": "watch",
+    "crash_score": 0.41010750000000007,
+    "crash_state": "calm",
+    "risk_off_reasons": [
+      "market internals rapuh / sempit"
+    ],
+    "crash_reasons": [
+      "breadth rapuh bikin cascade lebih mudah"
+    ],
+    "risk_off_vs_crash_divergence": -0.13404562499999995,
+    "risk_off_vs_crash_divergence_state": "broad_defensive_without_full_crash",
+    "top_reasons": [
+      "market internals rapuh / sempit",
+      "breadth rapuh bikin cascade lebih mudah"
+    ]
+  },
+  "next_path": {
+    "next_structural_quad": "Q3",
+    "next_monthly_quad": "Q2",
+    "next_resolved_regime": "Monthly Q2 inside Structural Q3",
+    "flip_hazard": 0.4490849110863159,
+    "confidence_band": "low",
+    "structural_candidates": [
+      {
+        "quad": "Q4",
+        "prob": 0.26922035255752924
+      },
+      {
+        "quad": "Q3",
+        "prob": 0.26333809371677896
+      }
+    ],
+    "monthly_candidates": [
+      {
+        "quad": "Q3",
+        "prob": 0.32509164441941873
+      },
+      {
+        "quad": "Q2",
+        "prob": 0.28212106513627994
+      }
+    ],
+    "triggers": [
+      "Next macro: Belum dapat next macro catalyst resmi.",
+      "Breadth / credit confirmation",
+      "USD and yields direction"
+    ],
+    "invalidators": [
+      "Breadth broadens against the branch",
+      "USD / rates reverse sharply",
+      "Cross-asset confirmation fails"
+    ],
+    "continuation_path": "If current regime persists: stay with WTI, XAUUSD, IHSG",
+    "monthly_fade_path": "If monthly fades: rotate toward TLT, USD, XAUUSD",
+    "structural_flip_path": "If structural flips: next backbone likely EEM, IHSG, WTI",
+    "market_routes": {
+      "us": "If current regime persists: stay with WTI, XAUUSD, IHSG",
+      "ihsg": "If monthly fades: rotate toward TLT, USD, XAUUSD",
+      "fx": "Watch carry vs funding winners / losers",
+      "commodities": "Watch energy vs gold vs defensives split",
+      "crypto": "Watch majors breadth vs tactical-only bounce"
+    },
+    "petrodollar_route": "energy/gold lead then importer pain broadens",
+    "em_next_route": "selective exporters only"
+  },
+  "safe_harbor": "TLT",
+  "best_beneficiary": "WTI",
+  "status_ribbon": {
+    "current_quad": "Q4",
+    "structural_quad": "Q4",
+    "monthly_quad": "Q3",
+    "operating_regime": "Monthly Q3 inside Structural Q4",
+    "dominant_horizon": "balanced",
+    "resolved_language": "Low-Conviction Monthly Q3 inside Structural Q4",
+    "confidence_band": "low",
+    "confidence": 0.11337571099127226,
+    "health": "Fragile",
+    "safe_harbor": "TLT",
+    "best_beneficiary": "WTI",
+    "em_rotation": "not yet",
+    "risk_off": "watch",
+    "crash": "calm",
+    "range": "unknown",
+    "stretch": "neutral",
+    "breadth_state": "mixed / watch",
+    "breadth_trend": "deteriorating",
+    "narrow_leadership": 0.625
+  },
+  "flow_stack": {
+    "rotation": {
+      "structural": {
+        "label": "Structural Rotation",
+        "quad": "Q4",
+        "leaders": [
+          "TLT",
+          "USD",
+          "XAUUSD"
+        ],
+        "why": "Structural quad menentukan backbone winner/defensive hierarchy untuk 1\u20133 bulan.",
+        "expected_duration": "1\u20133 bulan",
+        "maturity": "late/defensive"
+      },
+      "monthly": {
+        "label": "Monthly Rotation",
+        "quad": "Q3",
+        "leaders": [
+          "WTI",
+          "XAUUSD",
+          "IHSG"
+        ],
+        "why": "Monthly quad menentukan siapa yang bergerak duluan secara taktis bulan ini.",
+        "expected_duration": "2\u20136 minggu",
+        "maturity": "mid"
+      },
+      "resolved": {
+        "label": "Resolved Rotation",
+        "operating_regime": "Monthly Q3 inside Structural Q4",
+        "dominant_horizon": "balanced",
+        "leaders": [
+          "WTI",
+          "XAUUSD",
+          "IHSG"
+        ],
+        "why": "Resolved flow menggabungkan backbone structural, trigger monthly, dan confirmation signal.",
+        "expected_duration": "now / execution window"
+      },
+      "next": {
+        "label": "Next Rotation",
+        "structural_next_quad": "Q3",
+        "monthly_next_quad": "Q2",
+        "leaders": [
+          "EEM",
+          "IHSG",
+          "WTI",
+          "XAUUSD"
+        ],
+        "why": "Next flow dibentuk dari kandidat next structural quad dan next monthly quad saat ini.",
+        "expected_duration": "next 2\u20138 minggu"
+      }
+    },
+    "em_rotation": {
+      "score": 0.3769666666666667,
+      "state": "not yet",
+      "structural_score": 0.2536666666666667,
+      "monthly_score": 0.5276666666666667,
+      "resolved_score": 0.3769666666666667,
+      "structural_state": "not yet",
+      "monthly_state": "selective",
+      "resolved_state": "not yet",
+      "why": "Walk-forward warming up: histori belum cukup untuk rolling calibration penuh. Pakai prior weights sementara. Structural Q4, monthly Q3, dominant balanced.",
+      "structural_rotation": {
+        "state": "not yet",
+        "leaders": [
+          "USD-sensitive defensives"
+        ],
+        "why": "Structural EM route set by dollar, breadth, and broad EM relative strength."
+      },
+      "monthly_rotation": {
+        "state": "selective",
+        "leaders": [
+          "IHSG/resource beta",
+          "Selective exporters"
+        ],
+        "why": "Monthly EM route set by tactical exporter pulse and local market confirmation."
+      },
+      "resolved_rotation": {
+        "state": "not yet",
+        "leaders": [
+          "Defensive carry"
+        ],
+        "why": "Resolved EM playbook blends structural route and monthly pulse."
+      },
+      "exporters_vs_importers": "exporters favored",
+      "dollar_funding_stress": 0.0,
+      "next_route": "selective exporters only"
+    },
+    "petrodollar": {
+      "score": 0.79,
+      "state": "elevated",
+      "em_importer_pain": 0.6014999999999999,
+      "petro_exporter_benefit": 0.775,
+      "shipping_chokepoint": 0.725,
+      "dollar_funding_stress": 0.4,
+      "active_if": "structural Q4 / monthly Q3",
+      "chain": [
+        "oil / shipping pulse",
+        "USD funding pressure",
+        "EM importer pain vs exporter benefit",
+        "gold / energy / shipping winners",
+        "cyclical breadth conflict"
+      ],
+      "next_route": "energy/gold lead then importer pain broadens",
+      "winners": [
+        "Energy",
+        "Gold",
+        "Petro FX",
+        "Shipping"
+      ],
+      "losers": [
+        "Oil importers",
+        "Broad cyclicals",
+        "Fragile EM FX"
+      ]
+    }
+  },
+  "checklists": {
+    "us": [
+      {
+        "label": "Breadth melebar",
+        "score": 0.5,
+        "state": "Mixed",
+        "tone": "warn"
+      },
+      {
+        "label": "Equal-weight confirm",
+        "score": 1.0,
+        "state": "Improving",
+        "tone": "good"
+      },
+      {
+        "label": "Small caps ikut",
+        "score": 1.0,
+        "state": "Improving",
+        "tone": "good"
+      },
+      {
+        "label": "Credit aman",
+        "score": 0.7183026458333334,
+        "state": "Improving",
+        "tone": "good"
+      },
+      {
+        "label": "Vol mendukung",
+        "score": 0.26,
+        "state": "Fragile",
+        "tone": "bad"
+      },
+      {
+        "label": "Sector breadth sehat",
+        "score": 0.0,
+        "state": "Fragile",
+        "tone": "bad"
+      }
+    ],
+    "ihsg": [
+      {
+        "label": "USD/IDR aman",
+        "score": 0.0,
+        "state": "Fragile",
+        "tone": "bad"
+      },
+      {
+        "label": "SBN yield aman",
+        "score": 0.5,
+        "state": "Mixed",
+        "tone": "warn"
+      },
+      {
+        "label": "Foreign flow confirm",
+        "score": 0.6749999999999999,
+        "state": "Improving",
+        "tone": "good"
+      },
+      {
+        "label": "Breadth confirm",
+        "score": 0.45,
+        "state": "Mixed",
+        "tone": "warn"
+      },
+      {
+        "label": "Heavyweights sehat",
+        "score": 0.5,
+        "state": "Mixed",
+        "tone": "warn"
+      },
+      {
+        "label": "Banks/resources confirm",
+        "score": 0.5,
+        "state": "Mixed",
+        "tone": "warn"
+      }
+    ],
+    "fx": [
+      {
+        "label": "Rate diff bersih",
+        "score": 1.0,
+        "state": "Improving",
+        "tone": "good"
+      },
+      {
+        "label": "Macro surprise confirm",
+        "score": 0.3790655803627392,
+        "state": "Fragile",
+        "tone": "bad"
+      },
+      {
+        "label": "Positioning dingin",
+        "score": 0.4375,
+        "state": "Fragile",
+        "tone": "bad"
+      },
+      {
+        "label": "Options nggak ekstrem",
+        "score": 0.806875,
+        "state": "Improving",
+        "tone": "good"
+      },
+      {
+        "label": "Liquidity oke",
+        "score": 0.6853121718749999,
+        "state": "Improving",
+        "tone": "good"
+      },
+      {
+        "label": "Intervention risk rendah",
+        "score": 0.804494625,
+        "state": "Improving",
+        "tone": "good"
+      }
+    ],
+    "commodities": [
+      {
+        "label": "Physical balance ketat",
+        "score": 0.5,
+        "state": "Mixed",
+        "tone": "warn"
+      },
+      {
+        "label": "Inventory tipis",
+        "score": 0.7999999999999999,
+        "state": "Improving",
+        "tone": "good"
+      },
+      {
+        "label": "Curve confirm",
+        "score": 0.875,
+        "state": "Improving",
+        "tone": "good"
+      },
+      {
+        "label": "USD/rates mendukung",
+        "score": 0.19999999999999996,
+        "state": "Fragile",
+        "tone": "bad"
+      },
+      {
+        "label": "Shock supply/logistics",
+        "score": 0.5795878125,
+        "state": "Mixed",
+        "tone": "warn"
+      },
+      {
+        "label": "Positioning nggak kepanasan",
+        "score": 0.60371875,
+        "state": "Mixed",
+        "tone": "warn"
+      }
+    ],
+    "crypto": [
+      {
+        "label": "Flow masuk",
+        "score": 0.35,
+        "state": "Fragile",
+        "tone": "bad"
+      },
+      {
+        "label": "Funding/OI sehat",
+        "score": 0.5701875000000001,
+        "state": "Mixed",
+        "tone": "warn"
+      },
+      {
+        "label": "Unlock aman",
+        "score": 0.65884375,
+        "state": "Mixed",
+        "tone": "warn"
+      },
+      {
+        "label": "Usage naik",
+        "score": 0.375,
+        "state": "Fragile",
+        "tone": "bad"
+      },
+      {
+        "label": "Liquidity cukup",
+        "score": 0.67714775,
+        "state": "Improving",
+        "tone": "good"
+      },
+      {
+        "label": "Narrative hidup",
+        "score": 0.5,
+        "state": "Mixed",
+        "tone": "warn"
+      }
+    ]
+  },
+  "top_drivers": [
+    "Growth trend",
+    "Inflation trend",
+    "Rates / duration",
+    "USD / DXY",
+    "Breadth / small caps",
+    "News catalyst: Oil shock fading"
+  ],
+  "top_risks": [
+    "Yield spike",
+    "USD spike",
+    "Credit stress",
+    "Breadth sempit"
+  ]
+}
