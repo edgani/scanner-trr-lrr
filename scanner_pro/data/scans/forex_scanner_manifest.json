@@ -1,14 +1,52 @@
 {
   "market": "forex",
+  "as_of": "2026-04-09T09:01:19.699326+00:00",
   "universe": 16,
-  "history_status": {
-    "requested": 16,
-    "present": 0
-  },
   "eligible": 0,
-  "rows": 0,
-  "coverage": 0,
-  "as_of": "2026-04-09T08:10:32Z",
+  "coverage": 0.0,
+  "macro_overlay": {
+    "backend": "macro_snapshot",
+    "regime": "unknown",
+    "execution_mode": "balanced",
+    "market_bias": "mixed",
+    "crash_state": "mixed",
+    "summary": "",
+    "next_route": "",
+    "invalidator_route": "",
+    "focus": "",
+    "next_macro_countdown": "-",
+    "next_macro_focus": "-",
+    "best_beneficiary": ""
+  },
+  "history_status": {
+    "present": 0,
+    "missing": 16,
+    "requested": 16
+  },
+  "refresh_report": {
+    "requested": 16,
+    "updated": 0,
+    "cached_only": 0,
+    "failed": []
+  },
+  "missing_due_to_history": [
+    "EURUSD=X",
+    "GBPUSD=X",
+    "AUDUSD=X",
+    "NZDUSD=X",
+    "JPY=X",
+    "CHF=X",
+    "CAD=X",
+    "EURJPY=X",
+    "GBPJPY=X",
+    "AUDJPY=X",
+    "NZDJPY=X",
+    "EURGBP=X",
+    "EURCHF=X",
+    "IDR=X",
+    "CNH=X",
+    "SGD=X"
+  ],
   "required_columns": [
     "Ticker",
     "Bias",
@@ -18,12 +56,5 @@
     "Holding Window",
     "Macro Aligned?",
     "EV+ / R:R"
-  ],
-  "macro_overlay": {
-    "summary": "Belum ada snapshot valid. Jalankan full build/refresh terbaru.",
-    "market_bias": "unknown",
-    "next_macro_countdown": "-",
-    "next_macro_focus": "run build first",
-    "execution_mode": "build_required"
-  }
+  ]
 }
